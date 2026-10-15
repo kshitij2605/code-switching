@@ -1,0 +1,208 @@
+{
+  "created": "2026-09-30T13:01:55+0900",
+  "git": {
+    "commit": "f077edf1591416489b384810f8cf0f92c41b9336",
+    "branch": "HEAD",
+    "dirty": false
+  },
+  "argv": [
+    "/data/code-switching/runs/phase0/code/03-training/asr-ft/train_lora.py",
+    "--model_id",
+    "LiquidAI/LFM2.5-Audio-1.5B-JP",
+    "--data",
+    "/data/code-switching/runs/phase0/prep_lfm/preprocessed/train",
+    "--val_data",
+    "/data/code-switching/runs/phase0/prep_lfm/preprocessed/eval",
+    "--output_dir",
+    "/data/code-switching/runs/phase0/ft_lfm_lm_s3/model",
+    "--lora_scope",
+    "lm",
+    "--max_steps",
+    "2000",
+    "--warmup_steps",
+    "100",
+    "--lr",
+    "3e-5",
+    "--encoder_lr",
+    "6e-6",
+    "--lora_r",
+    "8",
+    "--encoder_lora_r",
+    "32",
+    "--batch_size",
+    "8",
+    "--save_interval",
+    "1000",
+    "--val_interval",
+    "200",
+    "--log_interval",
+    "50",
+    "--seed",
+    "3"
+  ],
+  "args": {
+    "model_id": "LiquidAI/LFM2.5-Audio-1.5B-JP",
+    "data": "/data/code-switching/runs/phase0/prep_lfm/preprocessed/train",
+    "val_data": "/data/code-switching/runs/phase0/prep_lfm/preprocessed/eval",
+    "output_dir": "/data/code-switching/runs/phase0/ft_lfm_lm_s3/model",
+    "wandb_project": "lfm25-asr-lora-jp",
+    "wandb_run_id": null,
+    "context_length": 512,
+    "batch_size": 8,
+    "max_steps": 2000,
+    "start_step": 0,
+    "warmup_steps": 100,
+    "lr": 3e-05,
+    "resume_adapter": null,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "encoder_lora_r": 32,
+    "encoder_lr": 6e-06,
+    "log_interval": 50,
+    "val_interval": 200,
+    "save_interval": 1000,
+    "seed": 3,
+    "lora_scope": "lm"
+  },
+  "inputs": {},
+  "host": "mactrn01",
+  "platform": "Linux-5.14.0-362.24.1.el9_3.x86_64-x86_64-with-glibc2.34",
+  "cuda_visible_devices": "0",
+  "versions": {
+    "python": "3.12.8",
+    "torch": "2.11.0+cu126",
+    "torchaudio": "2.11.0+cu126",
+    "transformers": "4.57.6",
+    "peft": "0.21.0",
+    "accelerate": "1.15.0",
+    "datasets": "4.8.5",
+    "liquid-audio": "1.3.0",
+    "numpy": "2.5.3",
+    "fugashi": "1.5.2",
+    "unidic-lite": "1.0.8",
+    "cuda": "12.6",
+    "gpus": [
+      "NVIDIA H100 NVL"
+    ]
+  },
+  "extra": {
+    "lm_lora_tensors": 232,
+    "encoder_lora_tensors": 0,
+    "trainable_params": 6205440,
+    "data_build": {
+      "created": "2026-09-29T16:30:09+0900",
+      "git": {
+        "commit": "f077edf1591416489b384810f8cf0f92c41b9336",
+        "branch": "HEAD",
+        "dirty": false
+      },
+      "argv": [
+        "/data/code-switching/runs/phase0/code/02-preprocessing/asr-ft/preprocess_asr_data.py",
+        "--model_id",
+        "LiquidAI/LFM2.5-Audio-1.5B-JP",
+        "--train_jsonl",
+        "/data/code-switching/runs/phase0/prep_lfm/train.jsonl",
+        "--eval_jsonl",
+        "/data/code-switching/runs/phase0/prep_lfm/dev.jsonl",
+        "--output_dir",
+        "/data/code-switching/runs/phase0/prep_lfm/preprocessed",
+        "--overwrite"
+      ],
+      "args": {
+        "model_id": "LiquidAI/LFM2.5-Audio-1.5B-JP",
+        "train_jsonl": "/data/code-switching/runs/phase0/prep_lfm/train.jsonl",
+        "eval_jsonl": "/data/code-switching/runs/phase0/prep_lfm/dev.jsonl",
+        "output_dir": "/data/code-switching/runs/phase0/prep_lfm/preprocessed",
+        "max_context": 512,
+        "license_scope": "research",
+        "allow_missing_audio": false,
+        "overwrite": true
+      },
+      "inputs": {
+        "/data/code-switching/runs/phase0/prep_lfm/train.jsonl": "9e8f9de6dd935fc13806f5ce68c692627901070ee39e7dcb4b09cfd34f2857e8"
+      },
+      "host": "mactrn01",
+      "platform": "Linux-5.14.0-362.24.1.el9_3.x86_64-x86_64-with-glibc2.34",
+      "cuda_visible_devices": "0",
+      "versions": {
+        "python": "3.12.8",
+        "torch": "2.11.0+cu126",
+        "torchaudio": "2.11.0+cu126",
+        "transformers": "4.57.6",
+        "peft": "0.21.0",
+        "accelerate": "1.15.0",
+        "datasets": "4.8.5",
+        "liquid-audio": "1.3.0",
+        "numpy": "2.5.3",
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "cuda": "12.6",
+        "gpus": [
+          "NVIDIA H100 NVL"
+        ]
+      },
+      "extra": {
+        "split": "train",
+        "rows": 7400
+      }
+    },
+    "val_data_build": {
+      "created": "2026-09-29T16:30:36+0900",
+      "git": {
+        "commit": "f077edf1591416489b384810f8cf0f92c41b9336",
+        "branch": "HEAD",
+        "dirty": false
+      },
+      "argv": [
+        "/data/code-switching/runs/phase0/code/02-preprocessing/asr-ft/preprocess_asr_data.py",
+        "--model_id",
+        "LiquidAI/LFM2.5-Audio-1.5B-JP",
+        "--train_jsonl",
+        "/data/code-switching/runs/phase0/prep_lfm/train.jsonl",
+        "--eval_jsonl",
+        "/data/code-switching/runs/phase0/prep_lfm/dev.jsonl",
+        "--output_dir",
+        "/data/code-switching/runs/phase0/prep_lfm/preprocessed",
+        "--overwrite"
+      ],
+      "args": {
+        "model_id": "LiquidAI/LFM2.5-Audio-1.5B-JP",
+        "train_jsonl": "/data/code-switching/runs/phase0/prep_lfm/train.jsonl",
+        "eval_jsonl": "/data/code-switching/runs/phase0/prep_lfm/dev.jsonl",
+        "output_dir": "/data/code-switching/runs/phase0/prep_lfm/preprocessed",
+        "max_context": 512,
+        "license_scope": "research",
+        "allow_missing_audio": false,
+        "overwrite": true
+      },
+      "inputs": {
+        "/data/code-switching/runs/phase0/prep_lfm/dev.jsonl": "2250de86b8d7654bf564613e3d7402908da4392cbaccabbf50d0ada9620ab2aa"
+      },
+      "host": "mactrn01",
+      "platform": "Linux-5.14.0-362.24.1.el9_3.x86_64-x86_64-with-glibc2.34",
+      "cuda_visible_devices": "0",
+      "versions": {
+        "python": "3.12.8",
+        "torch": "2.11.0+cu126",
+        "torchaudio": "2.11.0+cu126",
+        "transformers": "4.57.6",
+        "peft": "0.21.0",
+        "accelerate": "1.15.0",
+        "datasets": "4.8.5",
+        "liquid-audio": "1.3.0",
+        "numpy": "2.5.3",
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "cuda": "12.6",
+        "gpus": [
+          "NVIDIA H100 NVL"
+        ]
+      },
+      "extra": {
+        "split": "eval",
+        "rows": 808
+      }
+    }
+  }
+}

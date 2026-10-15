@@ -1,0 +1,2946 @@
+{
+  "models": [
+    {
+      "model": "ev_ft_lfm_both_s1",
+      "n": 30,
+      "MER": 0.2458,
+      "JA_CER": 0.2092,
+      "JA_WER": 0.2355,
+      "EN_WER": 0.3867,
+      "ScriptAcc": 0.9061,
+      "ScriptAcc_strict": 0.7403,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.2458,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 85,
+          "del": 25,
+          "ins": 52,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 32,
+          "del": 29,
+          "ins": 39,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 23,
+          "del": 22,
+          "ins": 28,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 43,
+          "del": 5,
+          "ins": 22,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 164,
+        "latin_exact": 134,
+        "latin_other": 30,
+        "katakana": 1,
+        "other_jp": 8,
+        "dropped": 8
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_lfm_both_s2",
+      "n": 30,
+      "MER": 0.1775,
+      "JA_CER": 0.1088,
+      "JA_WER": 0.1419,
+      "EN_WER": 0.4254,
+      "ScriptAcc": 0.9337,
+      "ScriptAcc_strict": 0.7293,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.1775,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 65,
+          "del": 17,
+          "ins": 35,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 15,
+          "del": 19,
+          "ins": 18,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 10,
+          "del": 18,
+          "ins": 16,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 42,
+          "del": 8,
+          "ins": 27,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 169,
+        "latin_exact": 132,
+        "latin_other": 37,
+        "katakana": 0,
+        "other_jp": 4,
+        "dropped": 8
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_lfm_both_s3",
+      "n": 30,
+      "MER": 0.261,
+      "JA_CER": 0.2176,
+      "JA_WER": 0.2323,
+      "EN_WER": 0.4972,
+      "ScriptAcc": 0.9061,
+      "ScriptAcc_strict": 0.7072,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.261,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 102,
+          "del": 23,
+          "ins": 47,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 28,
+          "del": 41,
+          "ins": 35,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 20,
+          "del": 30,
+          "ins": 22,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 46,
+          "del": 7,
+          "ins": 37,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 164,
+        "latin_exact": 128,
+        "latin_other": 36,
+        "katakana": 1,
+        "other_jp": 7,
+        "dropped": 9
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_lfm_encoder_s1",
+      "n": 30,
+      "MER": 0.475,
+      "JA_CER": 0.5335,
+      "JA_WER": 0.3871,
+      "EN_WER": 0.5635,
+      "ScriptAcc": 0.6409,
+      "ScriptAcc_strict": 0.5304,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.4674,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 152,
+          "del": 62,
+          "ins": 99,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 93,
+          "del": 46,
+          "ins": 116,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 41,
+          "del": 54,
+          "ins": 25,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 31,
+          "del": 52,
+          "ins": 19,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 116,
+        "latin_exact": 96,
+        "latin_other": 20,
+        "katakana": 37,
+        "other_jp": 7,
+        "dropped": 21
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_lfm_encoder_s2",
+      "n": 30,
+      "MER": 0.5175,
+      "JA_CER": 0.5858,
+      "JA_WER": 0.4161,
+      "EN_WER": 0.5967,
+      "ScriptAcc": 0.5967,
+      "ScriptAcc_strict": 0.4862,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.5083,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 165,
+          "del": 68,
+          "ins": 108,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 105,
+          "del": 48,
+          "ins": 127,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 47,
+          "del": 57,
+          "ins": 25,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 35,
+          "del": 56,
+          "ins": 17,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 108,
+        "latin_exact": 88,
+        "latin_other": 20,
+        "katakana": 41,
+        "other_jp": 9,
+        "dropped": 23
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_lfm_encoder_s3",
+      "n": 30,
+      "MER": 0.4962,
+      "JA_CER": 0.5711,
+      "JA_WER": 0.3806,
+      "EN_WER": 0.547,
+      "ScriptAcc": 0.6298,
+      "ScriptAcc_strict": 0.5249,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.4886,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 162,
+          "del": 53,
+          "ins": 112,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 103,
+          "del": 37,
+          "ins": 133,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 50,
+          "del": 43,
+          "ins": 25,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 30,
+          "del": 53,
+          "ins": 16,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 114,
+        "latin_exact": 95,
+        "latin_other": 19,
+        "katakana": 42,
+        "other_jp": 8,
+        "dropped": 17
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_lfm_lm_s1",
+      "n": 30,
+      "MER": 0.2064,
+      "JA_CER": 0.1485,
+      "JA_WER": 0.1774,
+      "EN_WER": 0.4365,
+      "ScriptAcc": 0.9171,
+      "ScriptAcc_strict": 0.7072,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.2064,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 86,
+          "del": 22,
+          "ins": 28,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 29,
+          "del": 27,
+          "ins": 15,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 24,
+          "del": 18,
+          "ins": 13,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 47,
+          "del": 7,
+          "ins": 25,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 166,
+        "latin_exact": 128,
+        "latin_other": 38,
+        "katakana": 0,
+        "other_jp": 6,
+        "dropped": 9
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_lfm_lm_s2",
+      "n": 30,
+      "MER": 0.176,
+      "JA_CER": 0.1276,
+      "JA_WER": 0.1581,
+      "EN_WER": 0.3702,
+      "ScriptAcc": 0.9337,
+      "ScriptAcc_strict": 0.7735,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.176,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 64,
+          "del": 19,
+          "ins": 33,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 18,
+          "del": 24,
+          "ins": 19,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 13,
+          "del": 20,
+          "ins": 16,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 34,
+          "del": 7,
+          "ins": 26,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 169,
+        "latin_exact": 140,
+        "latin_other": 29,
+        "katakana": 0,
+        "other_jp": 4,
+        "dropped": 8
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_lfm_lm_s3",
+      "n": 30,
+      "MER": 0.176,
+      "JA_CER": 0.1297,
+      "JA_WER": 0.1452,
+      "EN_WER": 0.3481,
+      "ScriptAcc": 0.9227,
+      "ScriptAcc_strict": 0.7624,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.176,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 61,
+          "del": 23,
+          "ins": 32,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 22,
+          "del": 21,
+          "ins": 19,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 14,
+          "del": 14,
+          "ins": 17,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 34,
+          "del": 9,
+          "ins": 20,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 167,
+        "latin_exact": 138,
+        "latin_other": 29,
+        "katakana": 0,
+        "other_jp": 5,
+        "dropped": 9
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_whisper_cs_s1_auto",
+      "n": 30,
+      "MER": 0.0288,
+      "JA_CER": 0.0335,
+      "JA_WER": 0.0581,
+      "EN_WER": 0.0166,
+      "ScriptAcc": 0.9945,
+      "ScriptAcc_strict": 0.989,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.0288,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 12,
+          "del": 1,
+          "ins": 6,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 11,
+          "del": 0,
+          "ins": 5,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 15,
+          "del": 2,
+          "ins": 1,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 1,
+          "del": 1,
+          "ins": 1,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 180,
+        "latin_exact": 179,
+        "latin_other": 1,
+        "katakana": 0,
+        "other_jp": 0,
+        "dropped": 1
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_whisper_cs_s2_auto",
+      "n": 30,
+      "MER": 0.0258,
+      "JA_CER": 0.0293,
+      "JA_WER": 0.0516,
+      "EN_WER": 0.0166,
+      "ScriptAcc": 1.0,
+      "ScriptAcc_strict": 0.989,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.0258,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 12,
+          "del": 0,
+          "ins": 5,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 10,
+          "del": 0,
+          "ins": 4,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 14,
+          "del": 2,
+          "ins": 0,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 2,
+          "del": 0,
+          "ins": 1,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 181,
+        "latin_exact": 179,
+        "latin_other": 2,
+        "katakana": 0,
+        "other_jp": 0,
+        "dropped": 0
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_whisper_cs_s3_auto",
+      "n": 30,
+      "MER": 0.0288,
+      "JA_CER": 0.0356,
+      "JA_WER": 0.0581,
+      "EN_WER": 0.011,
+      "ScriptAcc": 1.0,
+      "ScriptAcc_strict": 0.9945,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.0288,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 14,
+          "del": 0,
+          "ins": 5,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 13,
+          "del": 0,
+          "ins": 4,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 16,
+          "del": 2,
+          "ins": 0,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 1,
+          "del": 0,
+          "ins": 1,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 181,
+        "latin_exact": 180,
+        "latin_other": 1,
+        "katakana": 0,
+        "other_jp": 0,
+        "dropped": 0
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_whisper_csmono_s1_auto",
+      "n": 30,
+      "MER": 0.0288,
+      "JA_CER": 0.0335,
+      "JA_WER": 0.0484,
+      "EN_WER": 0.0166,
+      "ScriptAcc": 0.9945,
+      "ScriptAcc_strict": 0.989,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.0288,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 13,
+          "del": 1,
+          "ins": 5,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 12,
+          "del": 0,
+          "ins": 4,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 13,
+          "del": 2,
+          "ins": 0,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 1,
+          "del": 1,
+          "ins": 1,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 180,
+        "latin_exact": 179,
+        "latin_other": 1,
+        "katakana": 0,
+        "other_jp": 0,
+        "dropped": 1
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_whisper_csmono_s2_auto",
+      "n": 30,
+      "MER": 0.0303,
+      "JA_CER": 0.0377,
+      "JA_WER": 0.0516,
+      "EN_WER": 0.011,
+      "ScriptAcc": 1.0,
+      "ScriptAcc_strict": 0.9945,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.0303,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 14,
+          "del": 0,
+          "ins": 6,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 13,
+          "del": 0,
+          "ins": 5,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 14,
+          "del": 2,
+          "ins": 0,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 1,
+          "del": 0,
+          "ins": 1,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 181,
+        "latin_exact": 180,
+        "latin_other": 1,
+        "katakana": 0,
+        "other_jp": 0,
+        "dropped": 0
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "ev_ft_whisper_csmono_s3_auto",
+      "n": 30,
+      "MER": 0.0288,
+      "JA_CER": 0.0335,
+      "JA_WER": 0.0548,
+      "EN_WER": 0.0166,
+      "ScriptAcc": 1.0,
+      "ScriptAcc_strict": 0.9945,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.0288,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 13,
+          "del": 0,
+          "ins": 6,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 12,
+          "del": 0,
+          "ins": 4,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 15,
+          "del": 2,
+          "ins": 0,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 1,
+          "del": 0,
+          "ins": 2,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 181,
+        "latin_exact": 180,
+        "latin_other": 1,
+        "katakana": 0,
+        "other_jp": 0,
+        "dropped": 0
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "zs_lfm_p1",
+      "n": 30,
+      "MER": 0.4932,
+      "JA_CER": 0.6213,
+      "JA_WER": 0.3032,
+      "EN_WER": 0.5138,
+      "ScriptAcc": 0.6298,
+      "ScriptAcc_strict": 0.5304,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.4917,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 108,
+          "del": 6,
+          "ins": 211,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 31,
+          "del": 4,
+          "ins": 262,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 24,
+          "del": 6,
+          "ins": 64,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 28,
+          "del": 59,
+          "ins": 6,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 114,
+        "latin_exact": 96,
+        "latin_other": 18,
+        "katakana": 59,
+        "other_jp": 5,
+        "dropped": 3
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "zs_lfm_p2",
+      "n": 30,
+      "MER": 0.4932,
+      "JA_CER": 0.6234,
+      "JA_WER": 0.3161,
+      "EN_WER": 0.4751,
+      "ScriptAcc": 0.6188,
+      "ScriptAcc_strict": 0.5414,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.4932,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 112,
+          "del": 16,
+          "ins": 197,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 39,
+          "del": 10,
+          "ins": 249,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 28,
+          "del": 7,
+          "ins": 63,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 23,
+          "del": 61,
+          "ins": 2,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 112,
+        "latin_exact": 98,
+        "latin_other": 14,
+        "katakana": 53,
+        "other_jp": 9,
+        "dropped": 7
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "zs_lfm_p3",
+      "n": 30,
+      "MER": 0.5144,
+      "JA_CER": 0.6569,
+      "JA_WER": 0.3355,
+      "EN_WER": 0.5138,
+      "ScriptAcc": 0.6298,
+      "ScriptAcc_strict": 0.5414,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.5099,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 117,
+          "del": 4,
+          "ins": 218,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 32,
+          "del": 10,
+          "ins": 272,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 27,
+          "del": 9,
+          "ins": 68,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 26,
+          "del": 58,
+          "ins": 9,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 114,
+        "latin_exact": 98,
+        "latin_other": 16,
+        "katakana": 57,
+        "other_jp": 7,
+        "dropped": 3
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "zs_whisper_auto",
+      "n": 30,
+      "MER": 0.2656,
+      "JA_CER": 0.0439,
+      "JA_WER": 0.0677,
+      "EN_WER": 0.8619,
+      "ScriptAcc": 0.1381,
+      "ScriptAcc_strict": 0.1381,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.2656,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 17,
+          "del": 155,
+          "ins": 3,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 13,
+          "del": 2,
+          "ins": 6,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 14,
+          "del": 6,
+          "ins": 1,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 0,
+          "del": 156,
+          "ins": 0,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 25,
+        "latin_exact": 25,
+        "latin_other": 0,
+        "katakana": 2,
+        "other_jp": 3,
+        "dropped": 151
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "zs_whisper_ja",
+      "n": 30,
+      "MER": 0.2656,
+      "JA_CER": 0.0439,
+      "JA_WER": 0.0677,
+      "EN_WER": 0.8619,
+      "ScriptAcc": 0.1381,
+      "ScriptAcc_strict": 0.1381,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.2656,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 17,
+          "del": 155,
+          "ins": 3,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 13,
+          "del": 2,
+          "ins": 6,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 14,
+          "del": 6,
+          "ins": 1,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 0,
+          "del": 156,
+          "ins": 0,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 25,
+        "latin_exact": 25,
+        "latin_other": 0,
+        "katakana": 2,
+        "other_jp": 3,
+        "dropped": 151
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    },
+    {
+      "model": "zs_whisper_ja_rp",
+      "n": 30,
+      "MER": 0.2656,
+      "JA_CER": 0.0439,
+      "JA_WER": 0.0742,
+      "EN_WER": 0.8619,
+      "ScriptAcc": 0.1381,
+      "ScriptAcc_strict": 0.1381,
+      "KataKeep": null,
+      "MER_lenient": null,
+      "MER_capped": 0.2656,
+      "Runaway": 0.0,
+      "runaway_utts": 0,
+      "en_ref_words": 181,
+      "ja_ref_chars": 478,
+      "ja_ref_words": 310,
+      "kata_ref_runs": 0,
+      "edits": {
+        "mer": {
+          "sub": 17,
+          "del": 155,
+          "ins": 3,
+          "ref": 659
+        },
+        "ja_cer": {
+          "sub": 13,
+          "del": 2,
+          "ins": 6,
+          "ref": 478
+        },
+        "ja_wer": {
+          "sub": 15,
+          "del": 7,
+          "ins": 1,
+          "ref": 310
+        },
+        "en_wer": {
+          "sub": 0,
+          "del": 156,
+          "ins": 0,
+          "ref": 181
+        }
+      },
+      "script_breakdown": {
+        "latin": 25,
+        "latin_exact": 25,
+        "latin_other": 0,
+        "katakana": 2,
+        "other_jp": 3,
+        "dropped": 151
+      },
+      "kata_breakdown": {
+        "kept": 0,
+        "latinized": 0,
+        "other": 0
+      },
+      "flags": {
+        "en_small_denominator": false,
+        "ja_small_denominator": false,
+        "kata_small_denominator": true
+      },
+      "scorer_version": "2.2",
+      "ja_tokenizer": {
+        "fugashi": "1.5.2",
+        "unidic-lite": "1.0.8",
+        "dictionaries": [
+          {
+            "filename": "/data/code-switching/envs/liquid-ai-research/lib/python3.12/site-packages/unidic_lite/dicdir/sys.dic",
+            "version": 102
+          }
+        ]
+      },
+      "normalization": {
+        "remove_english_fillers": true,
+        "loanword_lexicon": null
+      }
+    }
+  ],
+  "bootstrap": {
+    "ev_ft_lfm_both_s1": {
+      "MER": {
+        "mean": 0.2457,
+        "lo": 0.1826,
+        "hi": 0.3168,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.2097,
+        "lo": 0.1411,
+        "hi": 0.2872,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.2367,
+        "lo": 0.1711,
+        "hi": 0.3074,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.3842,
+        "lo": 0.2751,
+        "hi": 0.5179,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.9059,
+        "lo": 0.8545,
+        "hi": 0.9508,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.7412,
+        "lo": 0.6721,
+        "hi": 0.8108,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.2457,
+        "lo": 0.1826,
+        "hi": 0.3168,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_lfm_both_s2": {
+      "MER": {
+        "mean": 0.1764,
+        "lo": 0.1242,
+        "hi": 0.2378,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.1075,
+        "lo": 0.0593,
+        "hi": 0.1704,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.1406,
+        "lo": 0.0828,
+        "hi": 0.2129,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.423,
+        "lo": 0.2882,
+        "hi": 0.5669,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.9325,
+        "lo": 0.8827,
+        "hi": 0.9718,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.7279,
+        "lo": 0.6647,
+        "hi": 0.7937,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.1764,
+        "lo": 0.1242,
+        "hi": 0.2378,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_lfm_both_s3": {
+      "MER": {
+        "mean": 0.2631,
+        "lo": 0.1936,
+        "hi": 0.3374,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.2196,
+        "lo": 0.1458,
+        "hi": 0.3015,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.2345,
+        "lo": 0.1641,
+        "hi": 0.3067,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.5022,
+        "lo": 0.3371,
+        "hi": 0.6782,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.9056,
+        "lo": 0.8547,
+        "hi": 0.9516,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.7063,
+        "lo": 0.6205,
+        "hi": 0.7849,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.2631,
+        "lo": 0.1936,
+        "hi": 0.3374,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_lfm_encoder_s1": {
+      "MER": {
+        "mean": 0.4762,
+        "lo": 0.3629,
+        "hi": 0.6015,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.5352,
+        "lo": 0.3967,
+        "hi": 0.6929,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.3888,
+        "lo": 0.2862,
+        "hi": 0.5064,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.5653,
+        "lo": 0.4286,
+        "hi": 0.7042,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.6374,
+        "lo": 0.4847,
+        "hi": 0.7765,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.5277,
+        "lo": 0.3714,
+        "hi": 0.663,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.469,
+        "lo": 0.3588,
+        "hi": 0.5912,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_lfm_encoder_s2": {
+      "MER": {
+        "mean": 0.5198,
+        "lo": 0.4117,
+        "hi": 0.6364,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.5881,
+        "lo": 0.4573,
+        "hi": 0.7341,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.4181,
+        "lo": 0.3232,
+        "hi": 0.5178,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.6013,
+        "lo": 0.4728,
+        "hi": 0.7181,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.5952,
+        "lo": 0.4677,
+        "hi": 0.7181,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.4837,
+        "lo": 0.3556,
+        "hi": 0.6124,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.5108,
+        "lo": 0.4089,
+        "hi": 0.6161,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_lfm_encoder_s3": {
+      "MER": {
+        "mean": 0.4934,
+        "lo": 0.3836,
+        "hi": 0.6072,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.5682,
+        "lo": 0.4229,
+        "hi": 0.7126,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.3799,
+        "lo": 0.2829,
+        "hi": 0.477,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.5426,
+        "lo": 0.4255,
+        "hi": 0.6648,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.6343,
+        "lo": 0.5057,
+        "hi": 0.7458,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.5275,
+        "lo": 0.4098,
+        "hi": 0.6433,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.486,
+        "lo": 0.3779,
+        "hi": 0.5915,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_lfm_lm_s1": {
+      "MER": {
+        "mean": 0.2063,
+        "lo": 0.1435,
+        "hi": 0.2862,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.1487,
+        "lo": 0.0816,
+        "hi": 0.2372,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.1783,
+        "lo": 0.1066,
+        "hi": 0.2661,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.4355,
+        "lo": 0.324,
+        "hi": 0.5575,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.9174,
+        "lo": 0.8564,
+        "hi": 0.9665,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.7083,
+        "lo": 0.6345,
+        "hi": 0.7841,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.2063,
+        "lo": 0.1435,
+        "hi": 0.2862,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_lfm_lm_s2": {
+      "MER": {
+        "mean": 0.1765,
+        "lo": 0.1267,
+        "hi": 0.2309,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.1271,
+        "lo": 0.0766,
+        "hi": 0.1884,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.1577,
+        "lo": 0.1007,
+        "hi": 0.2183,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.3723,
+        "lo": 0.2485,
+        "hi": 0.5088,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.9336,
+        "lo": 0.8878,
+        "hi": 0.9722,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.7726,
+        "lo": 0.7037,
+        "hi": 0.8453,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.1765,
+        "lo": 0.1267,
+        "hi": 0.2309,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_lfm_lm_s3": {
+      "MER": {
+        "mean": 0.1752,
+        "lo": 0.1235,
+        "hi": 0.2298,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.1286,
+        "lo": 0.0694,
+        "hi": 0.1974,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.1449,
+        "lo": 0.0903,
+        "hi": 0.2033,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.3469,
+        "lo": 0.2595,
+        "hi": 0.4385,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.924,
+        "lo": 0.8708,
+        "hi": 0.9659,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.7621,
+        "lo": 0.7021,
+        "hi": 0.8218,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.1752,
+        "lo": 0.1235,
+        "hi": 0.2298,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_whisper_cs_s1_auto": {
+      "MER": {
+        "mean": 0.0287,
+        "lo": 0.0134,
+        "hi": 0.0458,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.0332,
+        "lo": 0.0144,
+        "hi": 0.0559,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.0588,
+        "lo": 0.0313,
+        "hi": 0.087,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.0169,
+        "lo": 0.0,
+        "hi": 0.0426,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.9946,
+        "lo": 0.983,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.9889,
+        "lo": 0.9725,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.0287,
+        "lo": 0.0134,
+        "hi": 0.0458,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_whisper_cs_s2_auto": {
+      "MER": {
+        "mean": 0.0256,
+        "lo": 0.0105,
+        "hi": 0.0427,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.0289,
+        "lo": 0.0086,
+        "hi": 0.0527,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.0511,
+        "lo": 0.0252,
+        "hi": 0.0804,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.017,
+        "lo": 0.0,
+        "hi": 0.046,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 1.0,
+        "lo": 1.0,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.9887,
+        "lo": 0.9721,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.0256,
+        "lo": 0.0105,
+        "hi": 0.0427,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_whisper_cs_s3_auto": {
+      "MER": {
+        "mean": 0.0287,
+        "lo": 0.0137,
+        "hi": 0.0453,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.0356,
+        "lo": 0.0164,
+        "hi": 0.0584,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.0587,
+        "lo": 0.0316,
+        "hi": 0.0897,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.0105,
+        "lo": 0.0,
+        "hi": 0.0337,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 1.0,
+        "lo": 1.0,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.9947,
+        "lo": 0.9831,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.0287,
+        "lo": 0.0137,
+        "hi": 0.0453,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_whisper_csmono_s1_auto": {
+      "MER": {
+        "mean": 0.0289,
+        "lo": 0.0135,
+        "hi": 0.0462,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.0336,
+        "lo": 0.0132,
+        "hi": 0.0564,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.0495,
+        "lo": 0.0252,
+        "hi": 0.0767,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.0166,
+        "lo": 0.0,
+        "hi": 0.0437,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.9943,
+        "lo": 0.9824,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.9888,
+        "lo": 0.9719,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.0289,
+        "lo": 0.0135,
+        "hi": 0.0462,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_whisper_csmono_s2_auto": {
+      "MER": {
+        "mean": 0.0299,
+        "lo": 0.0148,
+        "hi": 0.0473,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.0371,
+        "lo": 0.0166,
+        "hi": 0.0609,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.0513,
+        "lo": 0.0255,
+        "hi": 0.0791,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.011,
+        "lo": 0.0,
+        "hi": 0.0343,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 1.0,
+        "lo": 1.0,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.9945,
+        "lo": 0.9829,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.0299,
+        "lo": 0.0148,
+        "hi": 0.0473,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "ev_ft_whisper_csmono_s3_auto": {
+      "MER": {
+        "mean": 0.029,
+        "lo": 0.0152,
+        "hi": 0.0463,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.0337,
+        "lo": 0.0139,
+        "hi": 0.0573,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.0554,
+        "lo": 0.0289,
+        "hi": 0.0833,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.0166,
+        "lo": 0.0,
+        "hi": 0.0455,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 1.0,
+        "lo": 1.0,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.9944,
+        "lo": 0.9826,
+        "hi": 1.0,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.029,
+        "lo": 0.0152,
+        "hi": 0.0463,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "zs_lfm_p1": {
+      "MER": {
+        "mean": 0.4931,
+        "lo": 0.3957,
+        "hi": 0.5963,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.6215,
+        "lo": 0.4907,
+        "hi": 0.7686,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.302,
+        "lo": 0.2323,
+        "hi": 0.371,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.5135,
+        "lo": 0.4041,
+        "hi": 0.6332,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.6304,
+        "lo": 0.5248,
+        "hi": 0.7189,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.5305,
+        "lo": 0.4128,
+        "hi": 0.6378,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.4915,
+        "lo": 0.3937,
+        "hi": 0.5939,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "zs_lfm_p2": {
+      "MER": {
+        "mean": 0.491,
+        "lo": 0.3795,
+        "hi": 0.6021,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.6208,
+        "lo": 0.4721,
+        "hi": 0.7616,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.3146,
+        "lo": 0.2376,
+        "hi": 0.3942,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.4737,
+        "lo": 0.3547,
+        "hi": 0.5951,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.6193,
+        "lo": 0.5027,
+        "hi": 0.7308,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.5429,
+        "lo": 0.4253,
+        "hi": 0.6597,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.491,
+        "lo": 0.3795,
+        "hi": 0.6021,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "zs_lfm_p3": {
+      "MER": {
+        "mean": 0.5146,
+        "lo": 0.4098,
+        "hi": 0.6253,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.6574,
+        "lo": 0.516,
+        "hi": 0.8038,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.337,
+        "lo": 0.2587,
+        "hi": 0.4239,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.5141,
+        "lo": 0.39,
+        "hi": 0.6512,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.6288,
+        "lo": 0.5094,
+        "hi": 0.7282,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.5415,
+        "lo": 0.4171,
+        "hi": 0.6465,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.5102,
+        "lo": 0.4093,
+        "hi": 0.6203,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "zs_whisper_auto": {
+      "MER": {
+        "mean": 0.2652,
+        "lo": 0.2165,
+        "hi": 0.3101,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.0437,
+        "lo": 0.0171,
+        "hi": 0.0761,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.0672,
+        "lo": 0.0342,
+        "hi": 0.1086,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.8613,
+        "lo": 0.7235,
+        "hi": 0.9693,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.1387,
+        "lo": 0.0307,
+        "hi": 0.2765,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.1387,
+        "lo": 0.0307,
+        "hi": 0.2765,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.2652,
+        "lo": 0.2165,
+        "hi": 0.3101,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "zs_whisper_ja": {
+      "MER": {
+        "mean": 0.2651,
+        "lo": 0.2168,
+        "hi": 0.3149,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.0441,
+        "lo": 0.0181,
+        "hi": 0.0773,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.0678,
+        "lo": 0.0339,
+        "hi": 0.1082,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.8582,
+        "lo": 0.7371,
+        "hi": 0.9679,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.1418,
+        "lo": 0.0321,
+        "hi": 0.2629,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.1418,
+        "lo": 0.0321,
+        "hi": 0.2629,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.2651,
+        "lo": 0.2168,
+        "hi": 0.3149,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    },
+    "zs_whisper_ja_rp": {
+      "MER": {
+        "mean": 0.2653,
+        "lo": 0.2182,
+        "hi": 0.3142,
+        "n_valid": 1000
+      },
+      "JA_CER": {
+        "mean": 0.0449,
+        "lo": 0.0187,
+        "hi": 0.0779,
+        "n_valid": 1000
+      },
+      "JA_WER": {
+        "mean": 0.0753,
+        "lo": 0.0402,
+        "hi": 0.1149,
+        "n_valid": 1000
+      },
+      "EN_WER": {
+        "mean": 0.8585,
+        "lo": 0.7351,
+        "hi": 0.9582,
+        "n_valid": 1000
+      },
+      "ScriptAcc": {
+        "mean": 0.1415,
+        "lo": 0.0418,
+        "hi": 0.2649,
+        "n_valid": 1000
+      },
+      "ScriptAcc_strict": {
+        "mean": 0.1415,
+        "lo": 0.0418,
+        "hi": 0.2649,
+        "n_valid": 1000
+      },
+      "KataKeep": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_lenient": {
+        "mean": null,
+        "lo": null,
+        "hi": null,
+        "n_valid": 0
+      },
+      "MER_capped": {
+        "mean": 0.2653,
+        "lo": 0.2182,
+        "hi": 0.3142,
+        "n_valid": 1000
+      },
+      "Runaway": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n_valid": 1000
+      }
+    }
+  }
+}

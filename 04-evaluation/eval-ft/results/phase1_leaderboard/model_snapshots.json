@@ -1,0 +1,10 @@
+{
+  "FunAudioLLM/Fun-ASR-Nano-2512": "272c57b82523ada6fd87095e955f8e29100979ab",
+  "Qwen/Qwen3-ASR-0.6B": "5eb144179a02acc5e5ba31e748d22b0cf3e303b0",
+  "Qwen/Qwen3-ASR-1.7B": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+  "Qwen/Qwen3-Omni-30B-A3B-Instruct": "26291f793822fb6be9555850f06dfe95f2d7e695",
+  "ibm-granite/granite-4.0-1b-speech": "bd87ab862416353633ea431fe49b1614003623c5",
+  "kotoba-tech/kotoba-whisper-bilingual-v1.0": "5b2c01ec5bc234cd784e9187e74bc86582ed5944",
+  "kotoba-tech/kotoba-whisper-v2.2": "9d33482a0eb9b57f1ad80708e8ac5538246d8355",
+  "openai/whisper-large-v3-turbo": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9"
+}

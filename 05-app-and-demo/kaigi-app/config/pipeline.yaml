@@ -1,0 +1,36 @@
+# Central config for the data-gen pipeline. Scripts read this; CLI flags override.
+
+paths:
+  seeds: data/seeds/meeting_codeswitch_seed.jsonl
+  domain_terms: data/seeds/domain_terms.json
+  transcripts: data/synth/transcripts.jsonl
+  audio_dir: data/synth/audio
+  manifest: data/synth/manifest.jsonl
+
+generate:
+  include_seeds: true
+  n_template: 300          # templated contrast pairs to synthesize
+  contrast_pairs: true     # emit each switch term BOTH ways (Latin switch + katakana loanword)
+  use_llm: false           # optional OpenAI-compatible expansion (needs .env)
+  llm_n: 0
+  seed: 13                 # RNG seed for reproducible generation
+
+tts:
+  backend: edge            # edge | (extend: azure, xtts)
+  sample_rate: 24000       # LFM2.5-Audio decodes/operates at 24 kHz
+  gap_ms: 60               # silence inserted between spliced spans
+  # speaker profiles: a JP + EN voice pair per "speaker" so spliced audio sounds like one bilingual person.
+  speakers:
+    - {name: f1, ja: ja-JP-NanamiNeural, en: en-US-AriaNeural}
+    - {name: m1, ja: ja-JP-KeitaNeural,  en: en-US-GuyNeural}
+    - {name: f2, ja: ja-JP-NanamiNeural, en: en-GB-SoniaNeural}
+    - {name: m2, ja: ja-JP-KeitaNeural,  en: en-AU-WilliamNeural}
+
+asr:
+  system_prompt: "Perform ASR in japanese."   # matches LFM2.5-Audio-1.5B-JP card
+
+# Target corpus mix (documentation; enforced when you assemble the final dataset).
+mix:
+  synth_codeswitch: 0.30
+  mono_japanese: 0.55
+  mono_english_replay: 0.15

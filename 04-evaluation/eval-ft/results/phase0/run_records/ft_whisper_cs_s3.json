@@ -1,0 +1,97 @@
+{
+  "created": "2026-09-30T12:54:21+0900",
+  "git": {
+    "commit": "f077edf1591416489b384810f8cf0f92c41b9336",
+    "branch": "HEAD",
+    "dirty": false
+  },
+  "argv": [
+    "/data/code-switching/runs/phase0/code/03-training/asr-ft/train_whisper.py",
+    "--model-id",
+    "openai/whisper-large-v3",
+    "--manifests",
+    "/data/code-switching/data/synth/edge_tts/manifest.jsonl",
+    "/data/code-switching/data/synth/kokoro/manifest.jsonl",
+    "/data/code-switching/data/synth/melo/manifest.jsonl",
+    "/data/code-switching/data/augmented_v2/manifest.jsonl",
+    "--dev-manifests",
+    "/data/code-switching/data/dev/csfleurs/xtts_test1/manifest.jsonl",
+    "/data/code-switching/data/dev/fleurs/ja_jp_dev/manifest.jsonl",
+    "/data/code-switching/data/dev/fleurs/en_us_dev/manifest.jsonl",
+    "--out",
+    "/data/code-switching/runs/phase0/ft_whisper_cs_s3/model",
+    "--epochs",
+    "3",
+    "--batch-size",
+    "16",
+    "--lr",
+    "1e-4",
+    "--lora-r",
+    "8",
+    "--seed",
+    "3"
+  ],
+  "args": {
+    "model_id": "openai/whisper-large-v3",
+    "manifests": [
+      "/data/code-switching/data/synth/edge_tts/manifest.jsonl",
+      "/data/code-switching/data/synth/kokoro/manifest.jsonl",
+      "/data/code-switching/data/synth/melo/manifest.jsonl",
+      "/data/code-switching/data/augmented_v2/manifest.jsonl"
+    ],
+    "dev_manifests": [
+      "/data/code-switching/data/dev/csfleurs/xtts_test1/manifest.jsonl",
+      "/data/code-switching/data/dev/fleurs/ja_jp_dev/manifest.jsonl",
+      "/data/code-switching/data/dev/fleurs/en_us_dev/manifest.jsonl"
+    ],
+    "out": "/data/code-switching/runs/phase0/ft_whisper_cs_s3/model",
+    "val_frac": 0.05,
+    "label_language": "auto",
+    "license_scope": "research",
+    "epochs": 3.0,
+    "batch_size": 16,
+    "grad_accum": 1,
+    "lr": 0.0001,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "warmup_ratio": 0.05,
+    "seed": 3
+  },
+  "inputs": {
+    "/data/code-switching/data/synth/edge_tts/manifest.jsonl": "a49f9fdac7395acd34b5ffbea41c3333962570bc605764754635a7369ab71ea8",
+    "/data/code-switching/data/synth/kokoro/manifest.jsonl": "f18c046253ccc40e6108b9e0007ec8ddfb42d193ab764b09794e304ee88954fa",
+    "/data/code-switching/data/synth/melo/manifest.jsonl": "479c44f13a8fd37d6db3a93b66fb9842fd2eaf3e68609503a3814511c9974ce3",
+    "/data/code-switching/data/augmented_v2/manifest.jsonl": "7598defd0410e76480fae026a4eefc06ffeeb5dfd2024c041c2a13e8f06649a0",
+    "/data/code-switching/data/dev/csfleurs/xtts_test1/manifest.jsonl": "3df57c8e2a79251e856ea8f452cbab673bed0f99e0475a236e100e44e495c98d",
+    "/data/code-switching/data/dev/fleurs/ja_jp_dev/manifest.jsonl": "82525f59277e74f1e8a8f4dbd4b6675547fe2bd5dddc0fdfff9e75e822254b24",
+    "/data/code-switching/data/dev/fleurs/en_us_dev/manifest.jsonl": "9e9ae0e5cb7f710c6faa0274ce8015688d52ceca398c9ae997092a19c0754f0c"
+  },
+  "host": "mactrn01",
+  "platform": "Linux-5.14.0-362.24.1.el9_3.x86_64-x86_64-with-glibc2.34",
+  "cuda_visible_devices": "1",
+  "versions": {
+    "python": "3.12.8",
+    "torch": "2.11.0+cu126",
+    "torchaudio": "2.11.0+cu126",
+    "transformers": "4.57.6",
+    "peft": "0.21.0",
+    "accelerate": "1.15.0",
+    "datasets": "4.8.5",
+    "liquid-audio": "1.3.0",
+    "numpy": "2.5.3",
+    "fugashi": "1.5.2",
+    "unidic-lite": "1.0.8",
+    "cuda": "12.6",
+    "gpus": [
+      "NVIDIA H100 NVL"
+    ]
+  },
+  "extra": {
+    "train_clips": 5400,
+    "val_clips": 808,
+    "by_use": {
+      "research": 1800,
+      "check": 3600
+    }
+  }
+}

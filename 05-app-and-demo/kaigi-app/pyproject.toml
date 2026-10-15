@@ -1,0 +1,40 @@
+[project]
+name = "kaigi-csdata"
+version = "0.1.0"
+description = "Synthetic JP<->EN code-switch ASR data pipeline for fine-tuning LFM2.5-Audio-1.5B"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "edge-tts>=6.1.9",   # free multilingual TTS (JP + EN), no API key
+    "soundfile>=0.12.1", # wav io + (modern libsndfile) mp3 decode
+    "numpy>=1.24",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# Needed only on the GPU job when packing data with the real model processor.
+pack = ["datasets>=2.18", "liquid-audio>=1.2.0"]
+# Fallback mp3 decode if your libsndfile lacks mp3 support.
+ffmpeg = ["pydub>=0.25.1"]
+# Optional LLM transcript generation.
+llm = ["openai>=1.30"]
+# Japanese tokenization for eval scoring (CER with proper segmentation).
+eval = ["jiwer>=3.0", "fugashi>=1.3", "unidic-lite>=1.0.8"]
+# Live JA->EN translation runtime (cascade: ASR -> MT -> TTS). torch comes via liquid-audio.
+live = ["liquid-audio>=1.2.0", "transformers>=4.46", "sounddevice>=0.4.7", "soundfile>=0.12.1", "numpy>=1.24"]
+# Machine-translation eval + optional fine-tune data prep.
+mt = ["transformers>=4.46", "datasets>=2.18", "sacrebleu>=2.4"]
+# Gradio demo app (cascade + minutes behind one UI).
+demo = ["gradio>=4.44", "liquid-audio>=1.2.0", "transformers>=4.46", "soundfile>=0.12.1", "numpy>=1.24"]
+# FastAPI bridge for the React front end (web/) — scripts/serve_api.py. Pairs with the `live` or `cpu` extra for models.
+web = ["fastapi>=0.115", "uvicorn>=0.30", "wsproto>=1.2", "numpy>=1.24"]
+# CPU-only audio via ONNX (onnxruntime) + LFM text model on CPU. Also needs `liquidonnx` (the onnx-export package):
+# pip-install it or set LiveConfig.onnx_export_src. Export the JA model once: `lfm2-audio-export <jp-model> --precision q4`.
+cpu = ["onnxruntime>=1.18", "scipy>=1.12", "transformers>=4.46", "soundfile>=0.12.1", "numpy>=1.24"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

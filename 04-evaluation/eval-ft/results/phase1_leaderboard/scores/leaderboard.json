@@ -1,0 +1,1900 @@
+{
+  "lb_funasr_nano_auto": {
+    "csf_read:MER": [
+      72.28
+    ],
+    "csf_read:MER_lenient": [
+      66.61
+    ],
+    "csf_read:MER_capped": [
+      59.08
+    ],
+    "csf_read:ScriptAcc_strict": [
+      37.019999999999996
+    ],
+    "csf_read:KataKeep": [
+      73.89
+    ],
+    "csyodas:MER": [
+      80.41
+    ],
+    "csyodas:MER_lenient": [
+      72.28
+    ],
+    "csyodas:MER_capped": [
+      48.209999999999994
+    ],
+    "csyodas:ScriptAcc_strict": [
+      13.639999999999999
+    ],
+    "csyodas:KataKeep": [
+      82.78999999999999
+    ],
+    "switchlingua:MER": [
+      29.99
+    ],
+    "switchlingua:MER_lenient": [
+      28.59
+    ],
+    "switchlingua:MER_capped": [
+      27.279999999999998
+    ],
+    "switchlingua:CER_yv": [
+      44.41
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      30.8
+    ],
+    "switchlingua:KataKeep": [
+      91.75999999999999
+    ],
+    "mono_ja:JA_CER": [
+      7.17
+    ],
+    "mono_en:EN_WER": [
+      5.35
+    ],
+    "twins_kokoro:MER": [
+      59.93000000000001
+    ],
+    "twins_kokoro:MER_lenient": [
+      57.9
+    ],
+    "twins_edge:MER": [
+      76.72
+    ],
+    "twins_edge:MER_lenient": [
+      51.959999999999994
+    ],
+    "synth_art:MER": [
+      63.800000000000004
+    ],
+    "synth_diss:MER": [
+      48.71
+    ]
+  },
+  "lb_funasr_nano_ja": {
+    "csf_read:MER": [
+      92.2
+    ],
+    "csf_read:MER_lenient": [
+      86.27
+    ],
+    "csf_read:MER_capped": [
+      59.699999999999996
+    ],
+    "csf_read:ScriptAcc_strict": [
+      32.23
+    ],
+    "csf_read:KataKeep": [
+      77.07000000000001
+    ],
+    "csyodas:MER": [
+      96.99
+    ],
+    "csyodas:MER_lenient": [
+      89.07000000000001
+    ],
+    "csyodas:MER_capped": [
+      47.980000000000004
+    ],
+    "csyodas:ScriptAcc_strict": [
+      10.7
+    ],
+    "csyodas:KataKeep": [
+      84.43
+    ],
+    "switchlingua:MER": [
+      31.009999999999998
+    ],
+    "switchlingua:MER_lenient": [
+      29.770000000000003
+    ],
+    "switchlingua:MER_capped": [
+      27.529999999999998
+    ],
+    "switchlingua:CER_yv": [
+      47.86
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      25.45
+    ],
+    "switchlingua:KataKeep": [
+      93.67999999999999
+    ],
+    "mono_ja:JA_CER": [
+      7.2700000000000005
+    ],
+    "mono_en:EN_WER": [
+      5.62
+    ],
+    "twins_kokoro:MER": [
+      82.78
+    ],
+    "twins_kokoro:MER_lenient": [
+      73.89
+    ],
+    "twins_edge:MER": [
+      87.15
+    ],
+    "twins_edge:MER_lenient": [
+      62.419999999999995
+    ],
+    "synth_art:MER": [
+      63.88
+    ],
+    "synth_diss:MER": [
+      42.79
+    ]
+  },
+  "lb_granite4_1b": {
+    "csf_read:MER": [
+      47.08
+    ],
+    "csf_read:MER_lenient": [
+      41.03
+    ],
+    "csf_read:MER_capped": [
+      46.18
+    ],
+    "csf_read:ScriptAcc_strict": [
+      36.65
+    ],
+    "csf_read:KataKeep": [
+      59.870000000000005
+    ],
+    "csyodas:MER": [
+      42.64
+    ],
+    "csyodas:MER_lenient": [
+      35.07
+    ],
+    "csyodas:MER_capped": [
+      38.879999999999995
+    ],
+    "csyodas:ScriptAcc_strict": [
+      13.639999999999999
+    ],
+    "csyodas:KataKeep": [
+      79.51
+    ],
+    "switchlingua:MER": [
+      31.819999999999997
+    ],
+    "switchlingua:MER_lenient": [
+      30.23
+    ],
+    "switchlingua:MER_capped": [
+      31.22
+    ],
+    "switchlingua:CER_yv": [
+      50.24999999999999
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      19.2
+    ],
+    "switchlingua:KataKeep": [
+      90.61
+    ],
+    "mono_ja:JA_CER": [
+      6.1
+    ],
+    "mono_en:EN_WER": [
+      6.58
+    ],
+    "twins_kokoro:MER": [
+      44.79
+    ],
+    "twins_kokoro:MER_lenient": [
+      39.79
+    ],
+    "twins_edge:MER": [
+      72.24000000000001
+    ],
+    "twins_edge:MER_lenient": [
+      48.230000000000004
+    ],
+    "synth_art:MER": [
+      60.74
+    ],
+    "synth_diss:MER": [
+      65.86
+    ]
+  },
+  "lb_kotoba_bilingual_auto": {
+    "csf_read:MER": [
+      66.47
+    ],
+    "csf_read:MER_lenient": [
+      56.71000000000001
+    ],
+    "csf_read:MER_capped": [
+      61.760000000000005
+    ],
+    "csf_read:ScriptAcc_strict": [
+      21.83
+    ],
+    "csf_read:KataKeep": [
+      90.45
+    ],
+    "csyodas:MER": [
+      53.56999999999999
+    ],
+    "csyodas:MER_lenient": [
+      44.96
+    ],
+    "csyodas:MER_capped": [
+      45.49
+    ],
+    "csyodas:ScriptAcc_strict": [
+      14.17
+    ],
+    "csyodas:KataKeep": [
+      80.33
+    ],
+    "switchlingua:MER": [
+      21.72
+    ],
+    "switchlingua:MER_lenient": [
+      19.09
+    ],
+    "switchlingua:MER_capped": [
+      21.64
+    ],
+    "switchlingua:CER_yv": [
+      23.56
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      66.24
+    ],
+    "switchlingua:KataKeep": [
+      76.05
+    ],
+    "mono_ja:JA_CER": [
+      6.890000000000001
+    ],
+    "mono_en:EN_WER": [
+      9.42
+    ],
+    "twins_kokoro:MER": [
+      34.89
+    ],
+    "twins_kokoro:MER_lenient": [
+      29.94
+    ],
+    "twins_edge:MER": [
+      72.6
+    ],
+    "twins_edge:MER_lenient": [
+      48.93
+    ],
+    "synth_art:MER": [
+      63.46000000000001
+    ],
+    "synth_diss:MER": [
+      74.96000000000001
+    ]
+  },
+  "lb_kotoba_v22_ja": {
+    "csf_read:MER": [
+      68.14
+    ],
+    "csf_read:MER_lenient": [
+      61.3
+    ],
+    "csf_read:MER_capped": [
+      63.71
+    ],
+    "csf_read:ScriptAcc_strict": [
+      0.37
+    ],
+    "csf_read:KataKeep": [
+      90.45
+    ],
+    "csyodas:MER": [
+      52.04
+    ],
+    "csyodas:MER_lenient": [
+      43.95
+    ],
+    "csyodas:MER_capped": [
+      45.58
+    ],
+    "csyodas:ScriptAcc_strict": [
+      11.5
+    ],
+    "csyodas:KataKeep": [
+      83.61
+    ],
+    "switchlingua:MER": [
+      33.47
+    ],
+    "switchlingua:MER_lenient": [
+      31.990000000000002
+    ],
+    "switchlingua:MER_capped": [
+      32.37
+    ],
+    "switchlingua:CER_yv": [
+      59.019999999999996
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      0.9199999999999999
+    ],
+    "switchlingua:KataKeep": [
+      95.59
+    ],
+    "mono_ja:JA_CER": [
+      6.93
+    ],
+    "mono_en:EN_WER": [
+      99.98
+    ],
+    "twins_kokoro:MER": [
+      44.019999999999996
+    ],
+    "twins_kokoro:MER_lenient": [
+      42.17
+    ],
+    "twins_edge:MER": [
+      76.07000000000001
+    ],
+    "twins_edge:MER_lenient": [
+      52.73
+    ],
+    "synth_art:MER": [
+      62.8
+    ],
+    "synth_diss:MER": [
+      50.83
+    ]
+  },
+  "lb_qwen3asr_0.6b_auto": {
+    "csf_read:MER": [
+      42.33
+    ],
+    "csf_read:MER_lenient": [
+      36.4
+    ],
+    "csf_read:MER_capped": [
+      42.199999999999996
+    ],
+    "csf_read:ScriptAcc_strict": [
+      59.29
+    ],
+    "csf_read:KataKeep": [
+      66.88
+    ],
+    "csyodas:MER": [
+      54.35
+    ],
+    "csyodas:MER_lenient": [
+      48.36
+    ],
+    "csyodas:MER_capped": [
+      47.52
+    ],
+    "csyodas:ScriptAcc_strict": [
+      28.34
+    ],
+    "csyodas:KataKeep": [
+      79.51
+    ],
+    "switchlingua:MER": [
+      16.17
+    ],
+    "switchlingua:MER_lenient": [
+      15.27
+    ],
+    "switchlingua:MER_capped": [
+      16.13
+    ],
+    "switchlingua:CER_yv": [
+      12.1
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      89.62
+    ],
+    "switchlingua:KataKeep": [
+      86.88
+    ],
+    "mono_ja:JA_CER": [
+      8.790000000000001
+    ],
+    "mono_en:EN_WER": [
+      4.68
+    ],
+    "twins_kokoro:MER": [
+      29.160000000000004
+    ],
+    "twins_kokoro:MER_lenient": [
+      26.05
+    ],
+    "twins_edge:MER": [
+      71.53
+    ],
+    "twins_edge:MER_lenient": [
+      50.580000000000005
+    ],
+    "synth_art:MER": [
+      61.3
+    ],
+    "synth_diss:MER": [
+      24.43
+    ]
+  },
+  "lb_qwen3asr_0.6b_ja": {
+    "csf_read:MER": [
+      44.940000000000005
+    ],
+    "csf_read:MER_lenient": [
+      38.65
+    ],
+    "csf_read:MER_capped": [
+      43.0
+    ],
+    "csf_read:ScriptAcc_strict": [
+      49.57
+    ],
+    "csf_read:KataKeep": [
+      77.07000000000001
+    ],
+    "csyodas:MER": [
+      54.87
+    ],
+    "csyodas:MER_lenient": [
+      48.52
+    ],
+    "csyodas:MER_capped": [
+      46.72
+    ],
+    "csyodas:ScriptAcc_strict": [
+      25.94
+    ],
+    "csyodas:KataKeep": [
+      82.78999999999999
+    ],
+    "switchlingua:MER": [
+      16.2
+    ],
+    "switchlingua:MER_lenient": [
+      15.39
+    ],
+    "switchlingua:MER_capped": [
+      15.6
+    ],
+    "switchlingua:CER_yv": [
+      12.030000000000001
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      87.22
+    ],
+    "switchlingua:KataKeep": [
+      90.33
+    ],
+    "mono_ja:JA_CER": [
+      8.799999999999999
+    ],
+    "mono_en:EN_WER": [
+      47.24
+    ],
+    "twins_kokoro:MER": [
+      24.6
+    ],
+    "twins_kokoro:MER_lenient": [
+      21.9
+    ],
+    "twins_edge:MER": [
+      72.18
+    ],
+    "twins_edge:MER_lenient": [
+      51.629999999999995
+    ],
+    "synth_art:MER": [
+      61.419999999999995
+    ],
+    "synth_diss:MER": [
+      14.11
+    ]
+  },
+  "lb_qwen3asr_1.7b_auto": {
+    "csf_read:MER": [
+      47.11
+    ],
+    "csf_read:MER_lenient": [
+      39.01
+    ],
+    "csf_read:MER_capped": [
+      46.73
+    ],
+    "csf_read:ScriptAcc_strict": [
+      68.33
+    ],
+    "csf_read:KataKeep": [
+      50.32
+    ],
+    "csyodas:MER": [
+      53.480000000000004
+    ],
+    "csyodas:MER_lenient": [
+      46.29
+    ],
+    "csyodas:MER_capped": [
+      47.089999999999996
+    ],
+    "csyodas:ScriptAcc_strict": [
+      23.53
+    ],
+    "csyodas:KataKeep": [
+      76.23
+    ],
+    "switchlingua:MER": [
+      21.560000000000002
+    ],
+    "switchlingua:MER_lenient": [
+      19.439999999999998
+    ],
+    "switchlingua:MER_capped": [
+      21.560000000000002
+    ],
+    "switchlingua:CER_yv": [
+      17.37
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      92.75999999999999
+    ],
+    "switchlingua:KataKeep": [
+      69.35
+    ],
+    "mono_ja:JA_CER": [
+      5.140000000000001
+    ],
+    "mono_en:EN_WER": [
+      3.45
+    ],
+    "twins_kokoro:MER": [
+      44.35
+    ],
+    "twins_kokoro:MER_lenient": [
+      40.949999999999996
+    ],
+    "twins_edge:MER": [
+      65.55
+    ],
+    "twins_edge:MER_lenient": [
+      45.17
+    ],
+    "synth_art:MER": [
+      55.81
+    ],
+    "synth_diss:MER": [
+      11.379999999999999
+    ]
+  },
+  "lb_qwen3asr_1.7b_ja": {
+    "csf_read:MER": [
+      43.02
+    ],
+    "csf_read:MER_lenient": [
+      33.14
+    ],
+    "csf_read:MER_capped": [
+      41.29
+    ],
+    "csf_read:ScriptAcc_strict": [
+      50.31
+    ],
+    "csf_read:KataKeep": [
+      82.17
+    ],
+    "csyodas:MER": [
+      55.559999999999995
+    ],
+    "csyodas:MER_lenient": [
+      47.96
+    ],
+    "csyodas:MER_capped": [
+      44.87
+    ],
+    "csyodas:ScriptAcc_strict": [
+      20.59
+    ],
+    "csyodas:KataKeep": [
+      83.61
+    ],
+    "switchlingua:MER": [
+      11.31
+    ],
+    "switchlingua:MER_lenient": [
+      10.11
+    ],
+    "switchlingua:MER_capped": [
+      10.89
+    ],
+    "switchlingua:CER_yv": [
+      8.43
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      90.27
+    ],
+    "switchlingua:KataKeep": [
+      95.11
+    ],
+    "mono_ja:JA_CER": [
+      5.08
+    ],
+    "mono_en:EN_WER": [
+      57.13
+    ],
+    "twins_kokoro:MER": [
+      30.3
+    ],
+    "twins_kokoro:MER_lenient": [
+      25.7
+    ],
+    "twins_edge:MER": [
+      71.56
+    ],
+    "twins_edge:MER_lenient": [
+      48.17
+    ],
+    "synth_art:MER": [
+      56.510000000000005
+    ],
+    "synth_diss:MER": [
+      15.78
+    ]
+  },
+  "lb_qwen3omni_30b_b8": {
+    "csf_read:MER": [
+      41.24
+    ],
+    "csf_read:MER_lenient": [
+      32.1
+    ],
+    "csf_read:MER_capped": [
+      40.88
+    ],
+    "csf_read:ScriptAcc_strict": [
+      64.02
+    ],
+    "csf_read:KataKeep": [
+      61.150000000000006
+    ],
+    "csyodas:MER": [
+      46.72
+    ],
+    "csyodas:MER_lenient": [
+      39.43
+    ],
+    "csyodas:MER_capped": [
+      41.75
+    ],
+    "csyodas:ScriptAcc_strict": [
+      21.39
+    ],
+    "csyodas:KataKeep": [
+      77.86999999999999
+    ],
+    "switchlingua:MER": [
+      11.35
+    ],
+    "switchlingua:MER_lenient": [
+      9.959999999999999
+    ],
+    "switchlingua:MER_capped": [
+      11.01
+    ],
+    "switchlingua:CER_yv": [
+      8.6
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      92.01
+    ],
+    "switchlingua:KataKeep": [
+      91.67
+    ]
+  },
+  "lb_whisper_turbo_auto": {
+    "csf_read:MER": [
+      45.22
+    ],
+    "csf_read:MER_lenient": [
+      37.14
+    ],
+    "csf_read:MER_capped": [
+      39.050000000000004
+    ],
+    "csf_read:ScriptAcc_strict": [
+      60.699999999999996
+    ],
+    "csf_read:KataKeep": [
+      73.25
+    ],
+    "csyodas:MER": [
+      70.94
+    ],
+    "csyodas:MER_lenient": [
+      63.480000000000004
+    ],
+    "csyodas:MER_capped": [
+      45.65
+    ],
+    "csyodas:ScriptAcc_strict": [
+      25.130000000000003
+    ],
+    "csyodas:KataKeep": [
+      80.33
+    ],
+    "switchlingua:MER": [
+      26.07
+    ],
+    "switchlingua:MER_lenient": [
+      24.89
+    ],
+    "switchlingua:MER_capped": [
+      22.56
+    ],
+    "switchlingua:CER_yv": [
+      36.08
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      55.05
+    ],
+    "switchlingua:KataKeep": [
+      84.39
+    ],
+    "mono_ja:JA_CER": [
+      4.34
+    ],
+    "mono_en:EN_WER": [
+      4.41
+    ],
+    "twins_kokoro:MER": [
+      38.86
+    ],
+    "twins_kokoro:MER_lenient": [
+      35.099999999999994
+    ],
+    "twins_edge:MER": [
+      69.59
+    ],
+    "twins_edge:MER_lenient": [
+      44.940000000000005
+    ],
+    "synth_art:MER": [
+      58.15
+    ],
+    "synth_diss:MER": [
+      36.120000000000005
+    ]
+  },
+  "ev_ft_lfm_both": {
+    "csf_read:MER": [
+      47.29,
+      50.51,
+      52.39
+    ],
+    "csf_read:MER_lenient": [
+      41.980000000000004,
+      45.12,
+      46.02
+    ],
+    "csf_read:MER_capped": [
+      47.21,
+      48.66,
+      51.99
+    ],
+    "csf_read:ScriptAcc_strict": [
+      42.5,
+      37.7,
+      41.88
+    ],
+    "csf_read:KataKeep": [
+      52.87,
+      52.87,
+      49.68
+    ],
+    "csyodas:MER": [
+      54.11,
+      51.15,
+      52.64
+    ],
+    "csyodas:MER_lenient": [
+      50.080000000000005,
+      46.54,
+      49.3
+    ],
+    "csyodas:MER_capped": [
+      49.41,
+      46.760000000000005,
+      48.010000000000005
+    ],
+    "csyodas:ScriptAcc_strict": [
+      29.68,
+      31.28,
+      31.019999999999996
+    ],
+    "csyodas:KataKeep": [
+      37.7,
+      41.8,
+      38.519999999999996
+    ],
+    "switchlingua:MER": [
+      24.85,
+      26.090000000000003,
+      26.61
+    ],
+    "switchlingua:MER_lenient": [
+      23.16,
+      24.560000000000002,
+      24.740000000000002
+    ],
+    "switchlingua:MER_capped": [
+      24.84,
+      26.029999999999998,
+      26.6
+    ],
+    "switchlingua:CER_yv": [
+      28.52,
+      36.4,
+      31.869999999999997
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      57.89,
+      41.260000000000005,
+      54.410000000000004
+    ],
+    "switchlingua:KataKeep": [
+      70.11,
+      74.9,
+      67.34
+    ],
+    "mono_ja:JA_CER": [
+      6.09,
+      6.3100000000000005,
+      5.84
+    ],
+    "mono_en:EN_WER": [
+      35.11,
+      52.09,
+      35.67
+    ],
+    "twins_kokoro:MER": [
+      46.48,
+      44.879999999999995,
+      44.59
+    ],
+    "twins_kokoro:MER_lenient": [
+      42.24,
+      41.27,
+      40.07
+    ],
+    "twins_edge:MER": [
+      55.43,
+      53.92,
+      55.879999999999995
+    ],
+    "twins_edge:MER_lenient": [
+      40.489999999999995,
+      38.46,
+      40.53
+    ],
+    "synth_art:MER": [
+      0.62,
+      1.16,
+      0.44
+    ],
+    "synth_diss:MER": [
+      24.58,
+      17.75,
+      26.1
+    ]
+  },
+  "ev_ft_lfm_encoder": {
+    "csf_read:MER": [
+      77.7,
+      70.11,
+      65.79
+    ],
+    "csf_read:MER_lenient": [
+      75.02,
+      67.25999999999999,
+      62.91
+    ],
+    "csf_read:MER_capped": [
+      58.15,
+      57.08,
+      58.709999999999994
+    ],
+    "csf_read:ScriptAcc_strict": [
+      29.15,
+      29.770000000000003,
+      28.23
+    ],
+    "csf_read:KataKeep": [
+      48.41,
+      49.04,
+      47.13
+    ],
+    "csyodas:MER": [
+      48.59,
+      49.21,
+      48.63
+    ],
+    "csyodas:MER_lenient": [
+      43.669999999999995,
+      44.11,
+      43.669999999999995
+    ],
+    "csyodas:MER_capped": [
+      44.379999999999995,
+      44.58,
+      44.019999999999996
+    ],
+    "csyodas:ScriptAcc_strict": [
+      26.47,
+      25.669999999999998,
+      26.740000000000002
+    ],
+    "csyodas:KataKeep": [
+      71.31,
+      72.13000000000001,
+      71.31
+    ],
+    "switchlingua:MER": [
+      33.95,
+      33.85,
+      35.05
+    ],
+    "switchlingua:MER_lenient": [
+      32.4,
+      32.49,
+      33.58
+    ],
+    "switchlingua:MER_capped": [
+      31.41,
+      31.169999999999998,
+      31.879999999999995
+    ],
+    "switchlingua:CER_yv": [
+      46.81,
+      48.32,
+      48.92
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      32.129999999999995,
+      32.07,
+      31.180000000000003
+    ],
+    "switchlingua:KataKeep": [
+      73.08,
+      73.47,
+      72.32
+    ],
+    "mono_ja:JA_CER": [
+      9.19,
+      9.15,
+      9.58
+    ],
+    "mono_en:EN_WER": [
+      79.84,
+      82.86,
+      75.61
+    ],
+    "twins_kokoro:MER": [
+      68.26,
+      73.0,
+      76.92
+    ],
+    "twins_kokoro:MER_lenient": [
+      64.4,
+      69.34,
+      72.94
+    ],
+    "twins_edge:MER": [
+      57.550000000000004,
+      58.48,
+      57.63
+    ],
+    "twins_edge:MER_lenient": [
+      42.55,
+      43.5,
+      42.620000000000005
+    ],
+    "synth_art:MER": [
+      46.43,
+      46.93,
+      46.21
+    ],
+    "synth_diss:MER": [
+      47.5,
+      51.74999999999999,
+      49.62
+    ]
+  },
+  "ev_ft_lfm_lm": {
+    "csf_read:MER": [
+      49.66,
+      48.82,
+      52.62
+    ],
+    "csf_read:MER_lenient": [
+      45.519999999999996,
+      44.05,
+      47.28
+    ],
+    "csf_read:MER_capped": [
+      45.2,
+      48.13,
+      49.97
+    ],
+    "csf_read:ScriptAcc_strict": [
+      42.19,
+      38.129999999999995,
+      37.15
+    ],
+    "csf_read:KataKeep": [
+      50.32,
+      52.87,
+      52.23
+    ],
+    "csyodas:MER": [
+      52.71,
+      52.349999999999994,
+      50.3
+    ],
+    "csyodas:MER_lenient": [
+      48.449999999999996,
+      48.14,
+      45.78
+    ],
+    "csyodas:MER_capped": [
+      46.339999999999996,
+      47.21,
+      45.94
+    ],
+    "csyodas:ScriptAcc_strict": [
+      32.09,
+      30.48,
+      31.819999999999997
+    ],
+    "csyodas:KataKeep": [
+      33.61,
+      44.26,
+      41.8
+    ],
+    "switchlingua:MER": [
+      23.91,
+      25.8,
+      24.240000000000002
+    ],
+    "switchlingua:MER_lenient": [
+      22.3,
+      24.2,
+      22.78
+    ],
+    "switchlingua:MER_capped": [
+      23.880000000000003,
+      25.759999999999998,
+      24.21
+    ],
+    "switchlingua:CER_yv": [
+      30.72,
+      35.03,
+      29.99
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      50.2,
+      44.46,
+      51.15
+    ],
+    "switchlingua:KataKeep": [
+      74.62,
+      73.08,
+      76.34
+    ],
+    "mono_ja:JA_CER": [
+      6.45,
+      6.84,
+      6.419999999999999
+    ],
+    "mono_en:EN_WER": [
+      55.400000000000006,
+      49.07,
+      57.730000000000004
+    ],
+    "twins_kokoro:MER": [
+      46.98,
+      43.25,
+      49.51
+    ],
+    "twins_kokoro:MER_lenient": [
+      45.190000000000005,
+      40.2,
+      46.94
+    ],
+    "twins_edge:MER": [
+      52.470000000000006,
+      54.71,
+      55.76
+    ],
+    "twins_edge:MER_lenient": [
+      39.879999999999995,
+      39.09,
+      40.89
+    ],
+    "synth_art:MER": [
+      1.32,
+      1.44,
+      2.26
+    ],
+    "synth_diss:MER": [
+      20.64,
+      17.599999999999998,
+      17.599999999999998
+    ]
+  },
+  "ev_ft_whisper_cs_auto": {
+    "csf_read:MER": [
+      16.88,
+      16.93,
+      16.919999999999998
+    ],
+    "csf_read:MER_lenient": [
+      12.9,
+      12.870000000000001,
+      12.93
+    ],
+    "csf_read:MER_capped": [
+      16.78,
+      16.82,
+      16.81
+    ],
+    "csf_read:ScriptAcc_strict": [
+      87.15,
+      87.58,
+      87.94999999999999
+    ],
+    "csf_read:KataKeep": [
+      12.740000000000002,
+      14.01,
+      16.56
+    ],
+    "csyodas:MER": [
+      54.15,
+      55.76,
+      55.489999999999995
+    ],
+    "csyodas:MER_lenient": [
+      47.449999999999996,
+      49.03,
+      48.94
+    ],
+    "csyodas:MER_capped": [
+      37.47,
+      37.1,
+      37.05
+    ],
+    "csyodas:ScriptAcc_strict": [
+      61.760000000000005,
+      61.23,
+      61.5
+    ],
+    "csyodas:KataKeep": [
+      13.930000000000001,
+      13.11,
+      14.75
+    ],
+    "switchlingua:MER": [
+      15.370000000000001,
+      15.310000000000002,
+      15.03
+    ],
+    "switchlingua:MER_lenient": [
+      9.11,
+      8.95,
+      8.92
+    ],
+    "switchlingua:MER_capped": [
+      15.370000000000001,
+      15.310000000000002,
+      15.03
+    ],
+    "switchlingua:CER_yv": [
+      11.76,
+      11.690000000000001,
+      11.459999999999999
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      94.28,
+      94.45,
+      94.33
+    ],
+    "switchlingua:KataKeep": [
+      16.950000000000003,
+      16.48,
+      20.02
+    ],
+    "mono_ja:JA_CER": [
+      15.160000000000002,
+      15.329999999999998,
+      14.92
+    ],
+    "mono_en:EN_WER": [
+      4.12,
+      4.12,
+      4.16
+    ],
+    "twins_kokoro:MER": [
+      14.030000000000001,
+      13.81,
+      13.29
+    ],
+    "twins_kokoro:MER_lenient": [
+      9.98,
+      9.77,
+      9.4
+    ],
+    "twins_edge:MER": [
+      16.09,
+      15.989999999999998,
+      16.04
+    ],
+    "twins_edge:MER_lenient": [
+      11.73,
+      11.75,
+      11.83
+    ],
+    "synth_art:MER": [
+      0.13999999999999999,
+      0.13999999999999999,
+      0.13999999999999999
+    ],
+    "synth_diss:MER": [
+      2.88,
+      2.58,
+      2.88
+    ]
+  },
+  "ev_ft_whisper_cs_ja": {
+    "csf_read:MER": [
+      16.78,
+      16.830000000000002,
+      16.71
+    ],
+    "csf_read:MER_lenient": [
+      12.8,
+      12.770000000000001,
+      12.72
+    ],
+    "csf_read:MER_capped": [
+      16.68,
+      16.72,
+      16.59
+    ],
+    "csf_read:ScriptAcc_strict": [
+      86.96000000000001,
+      87.45,
+      87.76
+    ],
+    "csf_read:KataKeep": [
+      13.38,
+      14.01,
+      17.2
+    ]
+  },
+  "ev_ft_whisper_csmono_auto": {
+    "csf_read:MER": [
+      19.33,
+      21.83,
+      23.1
+    ],
+    "csf_read:MER_lenient": [
+      15.540000000000001,
+      16.46,
+      17.62
+    ],
+    "csf_read:MER_capped": [
+      18.37,
+      20.95,
+      22.009999999999998
+    ],
+    "csf_read:ScriptAcc_strict": [
+      81.17999999999999,
+      78.60000000000001,
+      77.24
+    ],
+    "csf_read:KataKeep": [
+      66.24,
+      68.15,
+      70.06
+    ],
+    "csyodas:MER": [
+      53.13,
+      56.910000000000004,
+      52.71
+    ],
+    "csyodas:MER_lenient": [
+      46.54,
+      50.99,
+      46.489999999999995
+    ],
+    "csyodas:MER_capped": [
+      37.43,
+      37.36,
+      37.32
+    ],
+    "csyodas:ScriptAcc_strict": [
+      53.480000000000004,
+      52.410000000000004,
+      50.529999999999994
+    ],
+    "csyodas:KataKeep": [
+      53.28000000000001,
+      54.92,
+      55.74
+    ],
+    "switchlingua:MER": [
+      8.64,
+      8.18,
+      8.23
+    ],
+    "switchlingua:MER_lenient": [
+      7.08,
+      7.04,
+      7.249999999999999
+    ],
+    "switchlingua:MER_capped": [
+      8.64,
+      8.18,
+      8.21
+    ],
+    "switchlingua:CER_yv": [
+      6.239999999999999,
+      5.89,
+      5.87
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      94.14,
+      94.03,
+      93.76
+    ],
+    "switchlingua:KataKeep": [
+      84.87,
+      89.18,
+      91.57
+    ],
+    "mono_ja:JA_CER": [
+      3.9600000000000004,
+      3.83,
+      3.8899999999999997
+    ],
+    "mono_en:EN_WER": [
+      3.94,
+      3.65,
+      3.6700000000000004
+    ],
+    "twins_kokoro:MER": [
+      8.64,
+      8.52,
+      8.97
+    ],
+    "twins_kokoro:MER_lenient": [
+      6.74,
+      6.5600000000000005,
+      7.42
+    ],
+    "twins_edge:MER": [
+      26.56,
+      27.35,
+      31.369999999999997
+    ],
+    "twins_edge:MER_lenient": [
+      18.01,
+      18.22,
+      20.810000000000002
+    ],
+    "synth_art:MER": [
+      0.08,
+      0.12,
+      0.13999999999999999
+    ],
+    "synth_diss:MER": [
+      2.88,
+      3.0300000000000002,
+      2.88
+    ]
+  },
+  "ev_ft_whisper_csmono_ja": {
+    "csf_read:MER": [
+      19.36,
+      22.1,
+      23.11
+    ],
+    "csf_read:MER_lenient": [
+      15.559999999999999,
+      16.71,
+      17.66
+    ],
+    "csf_read:MER_capped": [
+      18.29,
+      20.91,
+      22.02
+    ],
+    "csf_read:ScriptAcc_strict": [
+      80.32000000000001,
+      77.37,
+      76.14
+    ],
+    "csf_read:KataKeep": [
+      66.88,
+      68.78999999999999,
+      71.34
+    ]
+  },
+  "zs_lfm_p1": {
+    "csf_read:MER": [
+      61.199999999999996
+    ],
+    "csf_read:MER_lenient": [
+      51.739999999999995
+    ],
+    "csf_read:MER_capped": [
+      53.6
+    ],
+    "csf_read:ScriptAcc_strict": [
+      21.59
+    ],
+    "csf_read:KataKeep": [
+      80.89
+    ],
+    "csyodas:MER": [
+      55.44
+    ],
+    "csyodas:MER_lenient": [
+      47.27
+    ],
+    "csyodas:MER_capped": [
+      45.67
+    ],
+    "csyodas:ScriptAcc_strict": [
+      15.24
+    ],
+    "csyodas:KataKeep": [
+      86.89
+    ],
+    "switchlingua:MER": [
+      23.080000000000002
+    ],
+    "switchlingua:MER_lenient": [
+      21.5
+    ],
+    "switchlingua:MER_capped": [
+      22.830000000000002
+    ],
+    "switchlingua:CER_yv": [
+      30.220000000000002
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      45.04
+    ],
+    "switchlingua:KataKeep": [
+      93.10000000000001
+    ],
+    "mono_ja:JA_CER": [
+      6.239999999999999
+    ],
+    "mono_en:EN_WER": [
+      68.61
+    ],
+    "twins_kokoro:MER": [
+      56.00000000000001
+    ],
+    "twins_kokoro:MER_lenient": [
+      48.32
+    ],
+    "twins_edge:MER": [
+      76.19
+    ],
+    "twins_edge:MER_lenient": [
+      51.18000000000001
+    ],
+    "synth_art:MER": [
+      62.82
+    ],
+    "synth_diss:MER": [
+      49.32
+    ]
+  },
+  "zs_lfm_p2": {
+    "csf_read:MER": [
+      109.38000000000001
+    ],
+    "csf_read:MER_lenient": [
+      99.56
+    ],
+    "csf_read:MER_capped": [
+      58.91
+    ],
+    "csf_read:ScriptAcc_strict": [
+      20.23
+    ],
+    "csf_read:KataKeep": [
+      81.53
+    ],
+    "csyodas:MER": [
+      584.21
+    ],
+    "csyodas:MER_lenient": [
+      575.17
+    ],
+    "csyodas:MER_capped": [
+      71.23
+    ],
+    "csyodas:ScriptAcc_strict": [
+      7.75
+    ],
+    "csyodas:KataKeep": [
+      77.05
+    ],
+    "switchlingua:MER": [
+      96.41999999999999
+    ],
+    "switchlingua:MER_lenient": [
+      94.42
+    ],
+    "switchlingua:MER_capped": [
+      32.6
+    ],
+    "switchlingua:CER_yv": [
+      76.25999999999999
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      39.81
+    ],
+    "switchlingua:KataKeep": [
+      91.0
+    ],
+    "mono_ja:JA_CER": [
+      16.46
+    ],
+    "mono_en:EN_WER": [
+      139.74
+    ],
+    "twins_kokoro:MER": [
+      340.79
+    ],
+    "twins_kokoro:MER_lenient": [
+      335.55
+    ],
+    "twins_edge:MER": [
+      370.93
+    ],
+    "twins_edge:MER_lenient": [
+      337.19
+    ],
+    "synth_art:MER": [
+      635.8399999999999
+    ],
+    "synth_diss:MER": [
+      49.32
+    ]
+  },
+  "zs_lfm_p3": {
+    "csf_read:MER": [
+      67.67999999999999
+    ],
+    "csf_read:MER_lenient": [
+      59.48
+    ],
+    "csf_read:MER_capped": [
+      56.620000000000005
+    ],
+    "csf_read:ScriptAcc_strict": [
+      23.43
+    ],
+    "csf_read:KataKeep": [
+      73.25
+    ],
+    "csyodas:MER": [
+      227.83
+    ],
+    "csyodas:MER_lenient": [
+      217.66
+    ],
+    "csyodas:MER_capped": [
+      57.65
+    ],
+    "csyodas:ScriptAcc_strict": [
+      9.36
+    ],
+    "csyodas:KataKeep": [
+      77.05
+    ],
+    "switchlingua:MER": [
+      38.78
+    ],
+    "switchlingua:MER_lenient": [
+      37.16
+    ],
+    "switchlingua:MER_capped": [
+      26.119999999999997
+    ],
+    "switchlingua:CER_yv": [
+      50.05
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      41.6
+    ],
+    "switchlingua:KataKeep": [
+      91.86
+    ],
+    "mono_ja:JA_CER": [
+      7.04
+    ],
+    "mono_en:EN_WER": [
+      139.16
+    ],
+    "twins_kokoro:MER": [
+      112.9
+    ],
+    "twins_kokoro:MER_lenient": [
+      108.08
+    ],
+    "twins_edge:MER": [
+      112.94999999999999
+    ],
+    "twins_edge:MER_lenient": [
+      90.60000000000001
+    ],
+    "synth_art:MER": [
+      256.89000000000004
+    ],
+    "synth_diss:MER": [
+      51.44
+    ]
+  },
+  "zs_whisper_auto": {
+    "csf_read:MER": [
+      41.38
+    ],
+    "csf_read:MER_lenient": [
+      30.599999999999998
+    ],
+    "csf_read:MER_capped": [
+      38.98
+    ],
+    "csf_read:ScriptAcc_strict": [
+      59.72
+    ],
+    "csf_read:KataKeep": [
+      70.7
+    ],
+    "csyodas:MER": [
+      62.61
+    ],
+    "csyodas:MER_lenient": [
+      54.35
+    ],
+    "csyodas:MER_capped": [
+      43.0
+    ],
+    "csyodas:ScriptAcc_strict": [
+      21.12
+    ],
+    "csyodas:KataKeep": [
+      81.15
+    ],
+    "switchlingua:MER": [
+      22.71
+    ],
+    "switchlingua:MER_lenient": [
+      20.9
+    ],
+    "switchlingua:MER_capped": [
+      20.19
+    ],
+    "switchlingua:CER_yv": [
+      29.56
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      65.71000000000001
+    ],
+    "switchlingua:KataKeep": [
+      87.26
+    ],
+    "mono_ja:JA_CER": [
+      3.9600000000000004
+    ],
+    "mono_en:EN_WER": [
+      3.92
+    ],
+    "twins_kokoro:MER": [
+      31.61
+    ],
+    "twins_kokoro:MER_lenient": [
+      27.99
+    ],
+    "twins_edge:MER": [
+      71.11
+    ],
+    "twins_edge:MER_lenient": [
+      46.129999999999995
+    ],
+    "synth_art:MER": [
+      57.91
+    ],
+    "synth_diss:MER": [
+      26.56
+    ]
+  },
+  "zs_whisper_ja": {
+    "csf_read:MER": [
+      54.43
+    ],
+    "csf_read:MER_lenient": [
+      43.87
+    ],
+    "csf_read:MER_capped": [
+      41.85
+    ],
+    "csf_read:ScriptAcc_strict": [
+      41.94
+    ],
+    "csf_read:KataKeep": [
+      85.35000000000001
+    ],
+    "csyodas:MER": [
+      68.43
+    ],
+    "csyodas:MER_lenient": [
+      60.08
+    ],
+    "csyodas:MER_capped": [
+      42.4
+    ],
+    "csyodas:ScriptAcc_strict": [
+      19.52
+    ],
+    "csyodas:KataKeep": [
+      85.25
+    ],
+    "switchlingua:MER": [
+      27.560000000000002
+    ],
+    "switchlingua:MER_lenient": [
+      25.82
+    ],
+    "switchlingua:MER_capped": [
+      17.849999999999998
+    ],
+    "switchlingua:CER_yv": [
+      34.82
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      52.03
+    ],
+    "switchlingua:KataKeep": [
+      95.88
+    ],
+    "mono_ja:JA_CER": [
+      3.9600000000000004
+    ],
+    "mono_en:EN_WER": [
+      108.03
+    ],
+    "twins_kokoro:MER": [
+      41.13
+    ],
+    "twins_kokoro:MER_lenient": [
+      37.59
+    ],
+    "twins_edge:MER": [
+      86.32
+    ],
+    "twins_edge:MER_lenient": [
+      60.77
+    ],
+    "synth_art:MER": [
+      57.91
+    ],
+    "synth_diss:MER": [
+      26.56
+    ]
+  },
+  "zs_whisper_ja_rp": {
+    "csf_read:MER": [
+      45.2
+    ],
+    "csf_read:MER_lenient": [
+      36.0
+    ],
+    "csf_read:MER_capped": [
+      42.08
+    ],
+    "csf_read:ScriptAcc_strict": [
+      42.559999999999995
+    ],
+    "csf_read:KataKeep": [
+      84.08
+    ],
+    "csyodas:MER": [
+      52.53
+    ],
+    "csyodas:MER_lenient": [
+      44.24
+    ],
+    "csyodas:MER_capped": [
+      43.059999999999995
+    ],
+    "csyodas:ScriptAcc_strict": [
+      18.45
+    ],
+    "csyodas:KataKeep": [
+      83.61
+    ],
+    "switchlingua:MER": [
+      18.73
+    ],
+    "switchlingua:MER_lenient": [
+      17.330000000000002
+    ],
+    "switchlingua:MER_capped": [
+      17.419999999999998
+    ],
+    "switchlingua:CER_yv": [
+      29.73
+    ],
+    "switchlingua:ScriptAcc_strict": [
+      53.18000000000001
+    ],
+    "switchlingua:KataKeep": [
+      95.30999999999999
+    ],
+    "mono_ja:JA_CER": [
+      5.81
+    ],
+    "mono_en:EN_WER": [
+      68.05
+    ],
+    "twins_kokoro:MER": [
+      32.0
+    ],
+    "twins_kokoro:MER_lenient": [
+      28.77
+    ],
+    "twins_edge:MER": [
+      73.72
+    ],
+    "twins_edge:MER_lenient": [
+      50.13999999999999
+    ],
+    "synth_art:MER": [
+      58.15
+    ],
+    "synth_diss:MER": [
+      26.56
+    ]
+  }
+}

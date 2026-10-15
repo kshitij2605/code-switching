@@ -1,0 +1,1739 @@
+{
+  "ev_ft_lfm_both": {
+    "csf_read:MER": {
+      "mean": 50.06333333333333,
+      "sd": 2.5791729940687067,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 61.11333333333332,
+      "sd": 2.7302991289112173,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 40.693333333333335,
+      "sd": 2.6107725548835785,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 51.806666666666665,
+      "sd": 1.841747358714905,
+      "n": 3
+    },
+    "mono_ja:JA_CER": {
+      "mean": 6.080000000000001,
+      "sd": 0.23515952032609724,
+      "n": 3
+    },
+    "mono_ja:MER": {
+      "mean": 6.266666666666666,
+      "sd": 0.22030282189144382,
+      "n": 3
+    },
+    "mono_en:EN_WER": {
+      "mean": 40.95666666666667,
+      "sd": 9.645814290837937,
+      "n": 3
+    },
+    "mono_en:MER": {
+      "mean": 43.32666666666666,
+      "sd": 8.711247518773265,
+      "n": 3
+    },
+    "synth_art:MER": {
+      "mean": 0.7399999999999999,
+      "sd": 0.37469987990390385,
+      "n": 3
+    },
+    "synth_art:ScriptAcc": {
+      "mean": 99.02,
+      "sd": 0.48497422611927943,
+      "n": 3
+    },
+    "synth_art:KataKeep": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 3
+    },
+    "synth_diss:MER": {
+      "mean": 22.810000000000002,
+      "sd": 4.447504918490816,
+      "n": 3
+    },
+    "synth_diss:ScriptAcc": {
+      "mean": 91.53000000000002,
+      "sd": 1.5934867429633701,
+      "n": 3
+    },
+    "csyodas:MER": {
+      "mean": 52.63333333333333,
+      "sd": 1.4800112612184189,
+      "n": 3
+    },
+    "csyodas:ScriptAcc": {
+      "mean": 52.32,
+      "sd": 2.8060826787534254,
+      "n": 3
+    },
+    "csyodas:ScriptAcc_strict": {
+      "mean": 30.659999999999997,
+      "sd": 0.858603517346627,
+      "n": 3
+    },
+    "csyodas:KataKeep": {
+      "mean": 39.339999999999996,
+      "sd": 2.1695160750729623,
+      "n": 3
+    },
+    "twins_kokoro:MER": {
+      "mean": 45.31666666666666,
+      "sd": 1.0178572263993262,
+      "n": 3
+    },
+    "twins_kokoro:ScriptAcc": {
+      "mean": 71.42333333333333,
+      "sd": 1.3632436808338166,
+      "n": 3
+    },
+    "twins_kokoro:ScriptAcc_strict": {
+      "mean": 56.050000000000004,
+      "sd": 1.9712178976460202,
+      "n": 3
+    },
+    "twins_kokoro:KataKeep": {
+      "mean": 55.416666666666664,
+      "sd": 3.371443805453881,
+      "n": 3
+    },
+    "twins_edge:MER": {
+      "mean": 55.07666666666666,
+      "sd": 1.026661255396992,
+      "n": 3
+    },
+    "twins_edge:ScriptAcc": {
+      "mean": 43.093333333333334,
+      "sd": 1.2618372848086763,
+      "n": 3
+    },
+    "twins_edge:ScriptAcc_strict": {
+      "mean": 32.43333333333333,
+      "sd": 0.2482606157515389,
+      "n": 3
+    },
+    "twins_edge:KataKeep": {
+      "mean": 75.16000000000001,
+      "sd": 2.297846818219181,
+      "n": 3
+    }
+  },
+  "ev_ft_lfm_encoder": {
+    "csf_read:MER": {
+      "mean": 71.2,
+      "sd": 6.029353199141678,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 51.78666666666667,
+      "sd": 1.3464521281253679,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 29.05,
+      "sd": 0.7748548251124218,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 48.19333333333333,
+      "sd": 0.9732591295915642,
+      "n": 3
+    },
+    "mono_ja:JA_CER": {
+      "mean": 9.306666666666667,
+      "sd": 0.23755701070129115,
+      "n": 3
+    },
+    "mono_ja:MER": {
+      "mean": 9.44,
+      "sd": 0.2443358344574118,
+      "n": 3
+    },
+    "mono_en:EN_WER": {
+      "mean": 79.43666666666667,
+      "sd": 3.641789852988958,
+      "n": 3
+    },
+    "mono_en:MER": {
+      "mean": 93.01,
+      "sd": 4.261560746956447,
+      "n": 3
+    },
+    "synth_art:MER": {
+      "mean": 46.52333333333333,
+      "sd": 0.3689625093872452,
+      "n": 3
+    },
+    "synth_art:ScriptAcc": {
+      "mean": 35.57,
+      "sd": 0.8399999999999999,
+      "n": 3
+    },
+    "synth_art:KataKeep": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 3
+    },
+    "synth_diss:MER": {
+      "mean": 49.623333333333335,
+      "sd": 2.1250019607834054,
+      "n": 3
+    },
+    "synth_diss:ScriptAcc": {
+      "mean": 62.24666666666667,
+      "sd": 2.29944196128829,
+      "n": 3
+    },
+    "csyodas:MER": {
+      "mean": 48.81,
+      "sd": 0.3469870314579482,
+      "n": 3
+    },
+    "csyodas:ScriptAcc": {
+      "mean": 39.303333333333335,
+      "sd": 0.7086842268128531,
+      "n": 3
+    },
+    "csyodas:ScriptAcc_strict": {
+      "mean": 26.293333333333333,
+      "sd": 0.5564470624716561,
+      "n": 3
+    },
+    "csyodas:KataKeep": {
+      "mean": 71.58333333333333,
+      "sd": 0.47342722073549737,
+      "n": 3
+    },
+    "twins_kokoro:MER": {
+      "mean": 72.72666666666667,
+      "sd": 4.336465534664529,
+      "n": 3
+    },
+    "twins_kokoro:ScriptAcc": {
+      "mean": 55.22666666666667,
+      "sd": 1.2001805419741374,
+      "n": 3
+    },
+    "twins_kokoro:ScriptAcc_strict": {
+      "mean": 36.736666666666665,
+      "sd": 0.689806736219161,
+      "n": 3
+    },
+    "twins_kokoro:KataKeep": {
+      "mean": 51.80666666666667,
+      "sd": 0.7332348418708183,
+      "n": 3
+    },
+    "twins_edge:MER": {
+      "mean": 57.88666666666666,
+      "sd": 0.5153962876596313,
+      "n": 3
+    },
+    "twins_edge:ScriptAcc": {
+      "mean": 45.1,
+      "sd": 0.6502307282803529,
+      "n": 3
+    },
+    "twins_edge:ScriptAcc_strict": {
+      "mean": 33.21,
+      "sd": 0.7471947537289053,
+      "n": 3
+    },
+    "twins_edge:KataKeep": {
+      "mean": 75.37333333333333,
+      "sd": 0.3695041722813526,
+      "n": 3
+    }
+  },
+  "ev_ft_lfm_lm": {
+    "csf_read:MER": {
+      "mean": 50.36666666666667,
+      "sd": 1.9961295883116732,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 63.20333333333334,
+      "sd": 3.640773727291133,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 39.156666666666666,
+      "sd": 2.672252483081143,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 51.806666666666665,
+      "sd": 1.3266624790553658,
+      "n": 3
+    },
+    "mono_ja:JA_CER": {
+      "mean": 6.57,
+      "sd": 0.2343074902771998,
+      "n": 3
+    },
+    "mono_ja:MER": {
+      "mean": 7.163333333333333,
+      "sd": 1.011154455725402,
+      "n": 3
+    },
+    "mono_en:EN_WER": {
+      "mean": 54.06666666666667,
+      "sd": 4.4813204899151495,
+      "n": 3
+    },
+    "mono_en:MER": {
+      "mean": 55.629999999999995,
+      "sd": 4.923575936247966,
+      "n": 3
+    },
+    "synth_art:MER": {
+      "mean": 1.6733333333333331,
+      "sd": 0.5115988011453244,
+      "n": 3
+    },
+    "synth_art:ScriptAcc": {
+      "mean": 98.46,
+      "sd": 0.242487113059652,
+      "n": 3
+    },
+    "synth_art:KataKeep": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 3
+    },
+    "synth_diss:MER": {
+      "mean": 18.613333333333333,
+      "sd": 1.755144818336464,
+      "n": 3
+    },
+    "synth_diss:ScriptAcc": {
+      "mean": 92.45,
+      "sd": 0.8445116932286959,
+      "n": 3
+    },
+    "csyodas:MER": {
+      "mean": 51.78666666666666,
+      "sd": 1.3000128204496044,
+      "n": 3
+    },
+    "csyodas:ScriptAcc": {
+      "mean": 52.23,
+      "sd": 1.6974097914174984,
+      "n": 3
+    },
+    "csyodas:ScriptAcc_strict": {
+      "mean": 31.463333333333335,
+      "sd": 0.8622258018253304,
+      "n": 3
+    },
+    "csyodas:KataKeep": {
+      "mean": 39.88999999999999,
+      "sd": 5.575993185074744,
+      "n": 3
+    },
+    "twins_kokoro:MER": {
+      "mean": 46.580000000000005,
+      "sd": 3.1491109856592847,
+      "n": 3
+    },
+    "twins_kokoro:ScriptAcc": {
+      "mean": 76.40333333333332,
+      "sd": 2.3020063712625425,
+      "n": 3
+    },
+    "twins_kokoro:ScriptAcc_strict": {
+      "mean": 56.97,
+      "sd": 1.4215484515133434,
+      "n": 3
+    },
+    "twins_kokoro:KataKeep": {
+      "mean": 48.620000000000005,
+      "sd": 5.91449913348544,
+      "n": 3
+    },
+    "twins_edge:MER": {
+      "mean": 54.31333333333333,
+      "sd": 1.6804860408028743,
+      "n": 3
+    },
+    "twins_edge:ScriptAcc": {
+      "mean": 50.68,
+      "sd": 5.946671337815802,
+      "n": 3
+    },
+    "twins_edge:ScriptAcc_strict": {
+      "mean": 36.42666666666667,
+      "sd": 3.966009749525754,
+      "n": 3
+    },
+    "twins_edge:KataKeep": {
+      "mean": 68.79,
+      "sd": 1.6838349087722368,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_cs_auto": {
+    "csf_read:MER": {
+      "mean": 16.91,
+      "sd": 0.02645751311064601,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 96.31,
+      "sd": 0.15874507866387338,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 87.56,
+      "sd": 0.40037482438334354,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 14.436666666666667,
+      "sd": 1.9454134093640167,
+      "n": 3
+    },
+    "mono_ja:JA_CER": {
+      "mean": 15.136666666666665,
+      "sd": 0.20599352740640436,
+      "n": 3
+    },
+    "mono_ja:MER": {
+      "mean": 15.143333333333333,
+      "sd": 0.20132891827388602,
+      "n": 3
+    },
+    "mono_en:EN_WER": {
+      "mean": 4.133333333333334,
+      "sd": 0.023094010767585053,
+      "n": 3
+    },
+    "mono_en:MER": {
+      "mean": 4.1866666666666665,
+      "sd": 0.023094010767585053,
+      "n": 3
+    },
+    "synth_art:MER": {
+      "mean": 0.13999999999999999,
+      "sd": 0.0,
+      "n": 3
+    },
+    "synth_art:ScriptAcc": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 3
+    },
+    "synth_art:KataKeep": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 3
+    },
+    "synth_diss:MER": {
+      "mean": 2.78,
+      "sd": 0.17320508075688762,
+      "n": 3
+    },
+    "synth_diss:ScriptAcc": {
+      "mean": 99.81666666666666,
+      "sd": 0.31754264805429255,
+      "n": 3
+    },
+    "csyodas:MER": {
+      "mean": 55.133333333333326,
+      "sd": 0.862225801825329,
+      "n": 3
+    },
+    "csyodas:ScriptAcc": {
+      "mean": 73.44,
+      "sd": 0.15588457268119665,
+      "n": 3
+    },
+    "csyodas:ScriptAcc_strict": {
+      "mean": 61.49666666666667,
+      "sd": 0.26501572280401686,
+      "n": 3
+    },
+    "csyodas:KataKeep": {
+      "mean": 13.93,
+      "sd": 0.8200000000000003,
+      "n": 3
+    },
+    "twins_kokoro:MER": {
+      "mean": 13.71,
+      "sd": 0.380000000000001,
+      "n": 3
+    },
+    "twins_kokoro:ScriptAcc": {
+      "mean": 98.33666666666666,
+      "sd": 0.1644181660685145,
+      "n": 3
+    },
+    "twins_kokoro:ScriptAcc_strict": {
+      "mean": 91.35000000000001,
+      "sd": 0.8319254774317216,
+      "n": 3
+    },
+    "twins_kokoro:KataKeep": {
+      "mean": 18.473333333333333,
+      "sd": 1.6876117246965712,
+      "n": 3
+    },
+    "twins_edge:MER": {
+      "mean": 16.04,
+      "sd": 0.05000000000000071,
+      "n": 3
+    },
+    "twins_edge:ScriptAcc": {
+      "mean": 96.8,
+      "sd": 0.3100000000000023,
+      "n": 3
+    },
+    "twins_edge:ScriptAcc_strict": {
+      "mean": 88.06666666666666,
+      "sd": 0.21361959960016416,
+      "n": 3
+    },
+    "twins_edge:KataKeep": {
+      "mean": 10.4,
+      "sd": 1.472243186433545,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_cs_ep1_auto": {
+    "csf_read:MER": {
+      "mean": 16.823333333333334,
+      "sd": 0.13316656236958913,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 96.22666666666667,
+      "sd": 0.1877054430040174,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 87.55666666666666,
+      "sd": 0.5001333155602946,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 15.5,
+      "sd": 0.9721625378505385,
+      "n": 3
+    },
+    "mono_ja:JA_CER": {
+      "mean": 15.143333333333333,
+      "sd": 0.20428737928059412,
+      "n": 3
+    },
+    "mono_ja:MER": {
+      "mean": 15.153333333333334,
+      "sd": 0.20428737928059387,
+      "n": 3
+    },
+    "mono_en:EN_WER": {
+      "mean": 4.146666666666667,
+      "sd": 0.023094010767585053,
+      "n": 3
+    },
+    "mono_en:MER": {
+      "mean": 4.22,
+      "sd": 0.051961524227066236,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_cs_ep2_auto": {
+    "csf_read:MER": {
+      "mean": 17.540000000000003,
+      "sd": 0.14422205101855848,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 96.55333333333333,
+      "sd": 0.2804163571073074,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 87.06333333333333,
+      "sd": 0.13051181300300663,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 12.736666666666666,
+      "sd": 1.2750032679696686,
+      "n": 3
+    },
+    "mono_ja:JA_CER": {
+      "mean": 15.736666666666666,
+      "sd": 0.22143471573656393,
+      "n": 3
+    },
+    "mono_ja:MER": {
+      "mean": 15.703333333333333,
+      "sd": 0.21571586249817962,
+      "n": 3
+    },
+    "mono_en:EN_WER": {
+      "mean": 4.183333333333334,
+      "sd": 0.08326663997864538,
+      "n": 3
+    },
+    "mono_en:MER": {
+      "mean": 4.263333333333333,
+      "sd": 0.09291573243177556,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_cs_ep3_auto": {
+    "csf_read:MER": {
+      "mean": 17.673333333333336,
+      "sd": 0.07571877794400407,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 96.43333333333334,
+      "sd": 0.21361959960015595,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 86.89999999999999,
+      "sd": 0.15874507866387608,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 12.103333333333333,
+      "sd": 1.1027390141521862,
+      "n": 3
+    },
+    "mono_ja:JA_CER": {
+      "mean": 15.883333333333333,
+      "sd": 0.15947831618540823,
+      "n": 3
+    },
+    "mono_ja:MER": {
+      "mean": 15.843333333333334,
+      "sd": 0.1594783161854092,
+      "n": 3
+    },
+    "mono_en:EN_WER": {
+      "mean": 4.166666666666667,
+      "sd": 0.07094598884597572,
+      "n": 3
+    },
+    "mono_en:MER": {
+      "mean": 4.246666666666667,
+      "sd": 0.07767453465154012,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_cs_ja": {
+    "csf_read:MER": {
+      "mean": 16.773333333333337,
+      "sd": 0.060277137733417564,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 96.12666666666667,
+      "sd": 0.1644181660685145,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 87.39,
+      "sd": 0.4033608806019724,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 14.863333333333335,
+      "sd": 2.047982747323163,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_cs_ja_rp": {
+    "csf_read:MER": {
+      "mean": 17.47666666666667,
+      "sd": 0.36295086903509827,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 96.16666666666667,
+      "sd": 0.255408170059878,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 87.02333333333333,
+      "sd": 0.3707200201409903,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 14.436666666666667,
+      "sd": 2.57663216880744,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_csmono_auto": {
+    "csf_read:MER": {
+      "mean": 21.419999999999998,
+      "sd": 1.918150150535668,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 83.35333333333334,
+      "sd": 2.2064526583032102,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 79.00666666666666,
+      "sd": 2.001232953289877,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 68.14999999999999,
+      "sd": 1.9100000000000037,
+      "n": 3
+    },
+    "mono_ja:JA_CER": {
+      "mean": 3.893333333333333,
+      "sd": 0.0650640709864773,
+      "n": 3
+    },
+    "mono_ja:MER": {
+      "mean": 4.023333333333333,
+      "sd": 0.06506407098647686,
+      "n": 3
+    },
+    "mono_en:EN_WER": {
+      "mean": 3.7533333333333334,
+      "sd": 0.1619670748434178,
+      "n": 3
+    },
+    "mono_en:MER": {
+      "mean": 3.936666666666666,
+      "sd": 0.13316656236958782,
+      "n": 3
+    },
+    "synth_art:MER": {
+      "mean": 0.11333333333333333,
+      "sd": 0.030550504633038926,
+      "n": 3
+    },
+    "synth_art:ScriptAcc": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 3
+    },
+    "synth_art:KataKeep": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 3
+    },
+    "synth_diss:MER": {
+      "mean": 2.9299999999999997,
+      "sd": 0.08660254037844407,
+      "n": 3
+    },
+    "synth_diss:ScriptAcc": {
+      "mean": 99.81666666666666,
+      "sd": 0.31754264805429255,
+      "n": 3
+    },
+    "csyodas:MER": {
+      "mean": 54.25,
+      "sd": 2.313179629860164,
+      "n": 3
+    },
+    "csyodas:ScriptAcc": {
+      "mean": 60.60666666666666,
+      "sd": 1.0759337030381277,
+      "n": 3
+    },
+    "csyodas:ScriptAcc_strict": {
+      "mean": 52.14000000000001,
+      "sd": 1.493418896358291,
+      "n": 3
+    },
+    "csyodas:KataKeep": {
+      "mean": 54.64666666666667,
+      "sd": 1.2525706899545928,
+      "n": 3
+    },
+    "twins_kokoro:MER": {
+      "mean": 8.71,
+      "sd": 0.23302360395462132,
+      "n": 3
+    },
+    "twins_kokoro:ScriptAcc": {
+      "mean": 97.17,
+      "sd": 0.7447818472546126,
+      "n": 3
+    },
+    "twins_kokoro:ScriptAcc_strict": {
+      "mean": 92.41333333333334,
+      "sd": 0.7311862507824796,
+      "n": 3
+    },
+    "twins_kokoro:KataKeep": {
+      "mean": 66.88,
+      "sd": 2.7724898557073225,
+      "n": 3
+    },
+    "twins_edge:MER": {
+      "mean": 28.426666666666666,
+      "sd": 2.5794250005249864,
+      "n": 3
+    },
+    "twins_edge:ScriptAcc": {
+      "mean": 77.24333333333334,
+      "sd": 3.227295049005169,
+      "n": 3
+    },
+    "twins_edge:ScriptAcc_strict": {
+      "mean": 72.96,
+      "sd": 2.593819577380049,
+      "n": 3
+    },
+    "twins_edge:KataKeep": {
+      "mean": 59.65666666666667,
+      "sd": 3.5075965180352964,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_csmono_ep1_auto": {
+    "csf_read:MER": {
+      "mean": 21.576666666666668,
+      "sd": 2.1550251351975773,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 83.23,
+      "sd": 2.27026430179396,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 78.94666666666666,
+      "sd": 2.119465341385256,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 67.30333333333333,
+      "sd": 0.9732591295915711,
+      "n": 3
+    },
+    "mono_ja:JA_CER": {
+      "mean": 3.91,
+      "sd": 0.06082762530298232,
+      "n": 3
+    },
+    "mono_ja:MER": {
+      "mean": 4.04,
+      "sd": 0.060827625302982434,
+      "n": 3
+    },
+    "mono_en:EN_WER": {
+      "mean": 3.7600000000000002,
+      "sd": 0.157162336455017,
+      "n": 3
+    },
+    "mono_en:MER": {
+      "mean": 3.9466666666666668,
+      "sd": 0.12662279942148377,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_csmono_ep2_auto": {
+    "csf_read:MER": {
+      "mean": 24.886666666666667,
+      "sd": 0.9776672917374968,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 79.33666666666666,
+      "sd": 1.0108082574520914,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 75.17333333333333,
+      "sd": 0.9392727683337428,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 70.48666666666666,
+      "sd": 1.6006977645181322,
+      "n": 3
+    },
+    "mono_ja:JA_CER": {
+      "mean": 3.91,
+      "sd": 0.11357816691600539,
+      "n": 3
+    },
+    "mono_ja:MER": {
+      "mean": 4.0,
+      "sd": 0.1135781669160059,
+      "n": 3
+    },
+    "mono_en:EN_WER": {
+      "mean": 3.7600000000000002,
+      "sd": 0.062449979983984,
+      "n": 3
+    },
+    "mono_en:MER": {
+      "mean": 3.983333333333334,
+      "sd": 0.07767453465154042,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_csmono_ep3_auto": {
+    "csf_read:MER": {
+      "mean": 24.59,
+      "sd": 0.7922752047110905,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 79.74333333333334,
+      "sd": 1.0346658075597852,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 75.56333333333333,
+      "sd": 0.73104947393001,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 69.64,
+      "sd": 1.605334856034714,
+      "n": 3
+    },
+    "mono_ja:JA_CER": {
+      "mean": 3.8833333333333333,
+      "sd": 0.05507570547286096,
+      "n": 3
+    },
+    "mono_ja:MER": {
+      "mean": 3.966666666666667,
+      "sd": 0.06027713773341712,
+      "n": 3
+    },
+    "mono_en:EN_WER": {
+      "mean": 3.7133333333333334,
+      "sd": 0.07505553499465104,
+      "n": 3
+    },
+    "mono_en:MER": {
+      "mean": 3.9166666666666665,
+      "sd": 0.08082903768654767,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_csmono_ja": {
+    "csf_read:MER": {
+      "mean": 21.52333333333333,
+      "sd": 1.9403693806420814,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 82.26666666666667,
+      "sd": 2.3622094177556234,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 77.94333333333334,
+      "sd": 2.148169763620498,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 69.00333333333333,
+      "sd": 2.2376401259660486,
+      "n": 3
+    }
+  },
+  "ev_ft_whisper_csmono_ja_rp": {
+    "csf_read:MER": {
+      "mean": 22.33,
+      "sd": 1.294102005253063,
+      "n": 3
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 82.90333333333332,
+      "sd": 1.976267525749821,
+      "n": 3
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 77.98333333333333,
+      "sd": 1.7973962649714579,
+      "n": 3
+    },
+    "csf_read:KataKeep": {
+      "mean": 65.60333333333334,
+      "sd": 2.917573192455223,
+      "n": 3
+    }
+  },
+  "zs_lfm_p1": {
+    "csf_read:MER": {
+      "mean": 61.199999999999996,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 36.22,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 21.59,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:KataKeep": {
+      "mean": 80.89,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:JA_CER": {
+      "mean": 6.239999999999999,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:MER": {
+      "mean": 6.370000000000001,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:EN_WER": {
+      "mean": 68.61,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:MER": {
+      "mean": 88.33,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:MER": {
+      "mean": 62.82,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:ScriptAcc": {
+      "mean": 2.1,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:KataKeep": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:MER": {
+      "mean": 49.32,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:ScriptAcc": {
+      "mean": 62.980000000000004,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:MER": {
+      "mean": 55.44,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc": {
+      "mean": 21.39,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc_strict": {
+      "mean": 15.24,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:KataKeep": {
+      "mean": 86.89,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:MER": {
+      "mean": 56.00000000000001,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc": {
+      "mean": 48.15,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc_strict": {
+      "mean": 35.730000000000004,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:KataKeep": {
+      "mean": 77.07000000000001,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:MER": {
+      "mean": 76.19,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc": {
+      "mean": 13.16,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc_strict": {
+      "mean": 9.16,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:KataKeep": {
+      "mean": 95.54,
+      "sd": 0.0,
+      "n": 1
+    }
+  },
+  "zs_lfm_p2": {
+    "csf_read:MER": {
+      "mean": 109.38000000000001,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 33.52,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 20.23,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:KataKeep": {
+      "mean": 81.53,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:JA_CER": {
+      "mean": 16.46,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:MER": {
+      "mean": 16.66,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:EN_WER": {
+      "mean": 139.74,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:MER": {
+      "mean": 585.01,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:MER": {
+      "mean": 635.8399999999999,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:ScriptAcc": {
+      "mean": 0.84,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:KataKeep": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:MER": {
+      "mean": 49.32,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:ScriptAcc": {
+      "mean": 61.88,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:MER": {
+      "mean": 584.21,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc": {
+      "mean": 15.78,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc_strict": {
+      "mean": 7.75,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:KataKeep": {
+      "mean": 77.05,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:MER": {
+      "mean": 340.79,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc": {
+      "mean": 31.180000000000003,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc_strict": {
+      "mean": 19.189999999999998,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:KataKeep": {
+      "mean": 62.419999999999995,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:MER": {
+      "mean": 370.93,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc": {
+      "mean": 14.45,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc_strict": {
+      "mean": 7.630000000000001,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:KataKeep": {
+      "mean": 87.26,
+      "sd": 0.0,
+      "n": 1
+    }
+  },
+  "zs_lfm_p3": {
+    "csf_read:MER": {
+      "mean": 67.67999999999999,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 40.71,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 23.43,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:KataKeep": {
+      "mean": 73.25,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:JA_CER": {
+      "mean": 7.04,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:MER": {
+      "mean": 7.13,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:EN_WER": {
+      "mean": 139.16,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:MER": {
+      "mean": 253.51,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:MER": {
+      "mean": 256.89000000000004,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:ScriptAcc": {
+      "mean": 4.34,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:KataKeep": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:MER": {
+      "mean": 51.44,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:ScriptAcc": {
+      "mean": 62.980000000000004,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:MER": {
+      "mean": 227.83,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc": {
+      "mean": 19.52,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc_strict": {
+      "mean": 9.36,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:KataKeep": {
+      "mean": 77.05,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:MER": {
+      "mean": 112.9,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc": {
+      "mean": 48.15,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc_strict": {
+      "mean": 27.61,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:KataKeep": {
+      "mean": 61.78,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:MER": {
+      "mean": 112.94999999999999,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc": {
+      "mean": 15.68,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc_strict": {
+      "mean": 7.6899999999999995,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:KataKeep": {
+      "mean": 89.81,
+      "sd": 0.0,
+      "n": 1
+    }
+  },
+  "zs_whisper_auto": {
+    "csf_read:MER": {
+      "mean": 41.38,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 63.160000000000004,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 59.72,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:KataKeep": {
+      "mean": 70.7,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:JA_CER": {
+      "mean": 3.9600000000000004,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:MER": {
+      "mean": 4.07,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:EN_WER": {
+      "mean": 3.92,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:MER": {
+      "mean": 3.9800000000000004,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:MER": {
+      "mean": 57.91,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:ScriptAcc": {
+      "mean": 10.92,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:KataKeep": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:MER": {
+      "mean": 26.56,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:ScriptAcc": {
+      "mean": 13.81,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:MER": {
+      "mean": 62.61,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc": {
+      "mean": 27.27,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc_strict": {
+      "mean": 21.12,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:KataKeep": {
+      "mean": 81.15,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:MER": {
+      "mean": 31.61,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc": {
+      "mean": 49.32,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc_strict": {
+      "mean": 47.54,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:KataKeep": {
+      "mean": 75.8,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:MER": {
+      "mean": 71.11,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc": {
+      "mean": 22.63,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc_strict": {
+      "mean": 21.83,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:KataKeep": {
+      "mean": 93.63,
+      "sd": 0.0,
+      "n": 1
+    }
+  },
+  "zs_whisper_ja": {
+    "csf_read:MER": {
+      "mean": 54.43,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 44.65,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 41.94,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:KataKeep": {
+      "mean": 85.35000000000001,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:JA_CER": {
+      "mean": 3.9600000000000004,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:MER": {
+      "mean": 4.07,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:EN_WER": {
+      "mean": 108.03,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:MER": {
+      "mean": 411.58000000000004,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:MER": {
+      "mean": 57.91,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:ScriptAcc": {
+      "mean": 10.92,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:KataKeep": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:MER": {
+      "mean": 26.56,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:ScriptAcc": {
+      "mean": 13.81,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:MER": {
+      "mean": 68.43,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc": {
+      "mean": 23.799999999999997,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc_strict": {
+      "mean": 19.52,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:KataKeep": {
+      "mean": 85.25,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:MER": {
+      "mean": 41.13,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc": {
+      "mean": 15.129999999999999,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc_strict": {
+      "mean": 14.27,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:KataKeep": {
+      "mean": 96.17999999999999,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:MER": {
+      "mean": 86.32,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc": {
+      "mean": 9.229999999999999,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc_strict": {
+      "mean": 8.86,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:KataKeep": {
+      "mean": 97.45,
+      "sd": 0.0,
+      "n": 1
+    }
+  },
+  "zs_whisper_ja_rp": {
+    "csf_read:MER": {
+      "mean": 45.2,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc": {
+      "mean": 45.08,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:ScriptAcc_strict": {
+      "mean": 42.559999999999995,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csf_read:KataKeep": {
+      "mean": 84.08,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:JA_CER": {
+      "mean": 5.81,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_ja:MER": {
+      "mean": 5.94,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:EN_WER": {
+      "mean": 68.05,
+      "sd": 0.0,
+      "n": 1
+    },
+    "mono_en:MER": {
+      "mean": 135.73,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:MER": {
+      "mean": 58.15,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:ScriptAcc": {
+      "mean": 11.76,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_art:KataKeep": {
+      "mean": 100.0,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:MER": {
+      "mean": 26.56,
+      "sd": 0.0,
+      "n": 1
+    },
+    "synth_diss:ScriptAcc": {
+      "mean": 13.81,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:MER": {
+      "mean": 52.53,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc": {
+      "mean": 23.26,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:ScriptAcc_strict": {
+      "mean": 18.45,
+      "sd": 0.0,
+      "n": 1
+    },
+    "csyodas:KataKeep": {
+      "mean": 83.61,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:MER": {
+      "mean": 32.0,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc": {
+      "mean": 15.25,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:ScriptAcc_strict": {
+      "mean": 14.39,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_kokoro:KataKeep": {
+      "mean": 94.89999999999999,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:MER": {
+      "mean": 73.72,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc": {
+      "mean": 14.02,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:ScriptAcc_strict": {
+      "mean": 13.28,
+      "sd": 0.0,
+      "n": 1
+    },
+    "twins_edge:KataKeep": {
+      "mean": 92.99,
+      "sd": 0.0,
+      "n": 1
+    }
+  }
+}

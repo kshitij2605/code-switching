@@ -1,0 +1,68 @@
+# Python
+.venv/
+venv/
+.venv_train/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Local tooling / internal (not for publish)
+artifacts/
+*.log
+# internal working/handoff notes
+CONTEXT.md
+
+# Datasets & generated audio — regenerate via the data scripts.
+# (The loader/generator .py scripts are kept; only heavy/generated data is ignored.)
+**/data/csfleurs/
+**/data/fleurs/
+**/data/**/audio/
+**/data/training/
+**/preprocessed*/
+*.wav
+*.flac
+*.mp3
+*.arrow
+# frozen eval manifests + leaderboard (regenerable from load_*.py)
+**/data/eval/*.jsonl
+**/data/eval/leaderboard.json
+
+# Model weights / checkpoints / exports (large)
+*.safetensors
+*.bin
+*.gguf
+*.onnx
+models/
+checkpoints/
+.cache/
+code-switching/
+
+# Secrets
+.env
+*.key
+*hf*.txt
+token.txt
+
+# Internal research notes, plans and audits (kept local, not published)
+/research/
+05-app-and-demo/kaigi-app/research/
+05-app-and-demo/kaigi-app/docs/data_plan.md
+
+# Superseded scripts, docs and results (kept local, not published)
+/03-training/asr-ft/run_r32.sh
+/03-training/asr-ft/run_ablations.sh
+/03-training/asr-ft/run_cs_mono.sh
+/03-training/asr-ft/run_whisper_all.sh
+/03-training/asr-ft/setup_train_env.sh
+/04-evaluation/eval-ft/bin/run_whisper_merged_controls.sh
+/04-evaluation/eval-ft/eval/eval_trained_models.sh
+/02-preprocessing/asr-ft/build_balanced_dataset.py
+/04-evaluation/eval-ft/bin/run_table5.sh
+/04-evaluation/eval-ft/results/preds/
+/04-evaluation/eval-ft/results/scores/
+/docs/asr-ft-training-log.md
+/docs/demo_samples.md
+/docs/eval-ft-context.md
+/docs/train_loss.png
+/docs/eval_loss.png
+/docs/dataset_rows.png

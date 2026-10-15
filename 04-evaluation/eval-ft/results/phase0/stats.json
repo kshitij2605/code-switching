@@ -1,0 +1,2181 @@
+{
+  "n_boot": 5000,
+  "comparisons": {
+    "csf_read": [
+      {
+        "label": "replay effect (Whisper cs+mono - cs)",
+        "a": "ev_ft_whisper_csmono_auto",
+        "b": "ev_ft_whisper_cs_auto",
+        "diff": {
+          "MER": 0.04510024592555539,
+          "ScriptAcc": -0.12956129561295604,
+          "ScriptAcc_strict": -0.08548585485854865,
+          "KataKeep": 0.5371549893842887
+        },
+        "ci": {
+          "MER": {
+            "mean": 0.0453,
+            "lo": 0.0141,
+            "hi": 0.079,
+            "n_valid": 5000,
+            "p_boot": 0.006,
+            "p_holm": 0.018,
+            "m": 8
+          },
+          "ScriptAcc": {
+            "mean": -0.13,
+            "lo": -0.1744,
+            "hi": -0.0903,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "ScriptAcc_strict": {
+            "mean": -0.0859,
+            "lo": -0.1235,
+            "hi": -0.0516,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "KataKeep": {
+            "mean": 0.5369,
+            "lo": 0.4322,
+            "hi": 0.6398,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          }
+        }
+      },
+      {
+        "label": "fine-tuning (Whisper cs - zero-shot)",
+        "a": "ev_ft_whisper_cs_auto",
+        "b": "zs_whisper_auto",
+        "diff": {
+          "MER": -0.24467508649076739,
+          "ScriptAcc": 0.3314883148831488,
+          "ScriptAcc_strict": 0.2783927839278393,
+          "KataKeep": -0.5626326963906582
+        },
+        "ci": {
+          "MER": {
+            "mean": -0.2454,
+            "lo": -0.296,
+            "hi": -0.197,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "ScriptAcc": {
+            "mean": 0.3329,
+            "lo": 0.2676,
+            "hi": 0.4004,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "ScriptAcc_strict": {
+            "mean": 0.2797,
+            "lo": 0.2192,
+            "hi": 0.3441,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "KataKeep": {
+            "mean": -0.5631,
+            "lo": -0.6625,
+            "hi": -0.4579,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          }
+        }
+      },
+      {
+        "label": "fine-tuning (Whisper cs+mono - zero-shot)",
+        "a": "ev_ft_whisper_csmono_auto",
+        "b": "zs_whisper_auto",
+        "diff": {
+          "MER": -0.199574840565212,
+          "ScriptAcc": 0.20192701927019274,
+          "ScriptAcc_strict": 0.19290692906929063,
+          "KataKeep": -0.02547770700636942
+        },
+        "ci": {
+          "MER": {
+            "mean": -0.2001,
+            "lo": -0.2429,
+            "hi": -0.1584,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "ScriptAcc": {
+            "mean": 0.2034,
+            "lo": 0.1451,
+            "hi": 0.2639,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "ScriptAcc_strict": {
+            "mean": 0.1942,
+            "lo": 0.1386,
+            "hi": 0.2518,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "KataKeep": {
+            "mean": -0.0261,
+            "lo": -0.0968,
+            "hi": 0.0428,
+            "n_valid": 5000,
+            "p_boot": 0.4676,
+            "p_holm": 1.0,
+            "m": 8
+          }
+        }
+      },
+      {
+        "label": "LFM encoder+LM - LM only",
+        "a": "ev_ft_lfm_both",
+        "b": "ev_ft_lfm_lm",
+        "diff": {
+          "MER": -0.003001125422033235,
+          "ScriptAcc": -0.02091020910209096,
+          "ScriptAcc_strict": 0.015375153751537474,
+          "KataKeep": 0.0
+        },
+        "ci": {
+          "MER": {
+            "mean": -0.0028,
+            "lo": -0.0421,
+            "hi": 0.0308,
+            "n_valid": 5000,
+            "p_boot": 0.9136,
+            "p_holm": 0.9136,
+            "m": 8
+          },
+          "ScriptAcc": {
+            "mean": -0.0209,
+            "lo": -0.0454,
+            "hi": 0.0035,
+            "n_valid": 5000,
+            "p_boot": 0.0892,
+            "p_holm": 0.1784,
+            "m": 8
+          },
+          "ScriptAcc_strict": {
+            "mean": 0.0153,
+            "lo": -0.0071,
+            "hi": 0.0364,
+            "n_valid": 5000,
+            "p_boot": 0.1916,
+            "p_holm": 0.3832,
+            "m": 8
+          },
+          "KataKeep": {
+            "mean": 0.0001,
+            "lo": -0.0297,
+            "hi": 0.0293,
+            "n_valid": 5000,
+            "p_boot": 1.0,
+            "p_holm": 1.0,
+            "m": 8
+          }
+        }
+      },
+      {
+        "label": "LFM encoder only - LM only",
+        "a": "ev_ft_lfm_encoder",
+        "b": "ev_ft_lfm_lm",
+        "diff": {
+          "MER": 0.20836980534367056,
+          "ScriptAcc": -0.11418614186141862,
+          "ScriptAcc_strict": -0.10106601066010662,
+          "KataKeep": -0.03609341825902335
+        },
+        "ci": {
+          "MER": {
+            "mean": 0.2087,
+            "lo": 0.1088,
+            "hi": 0.3256,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "ScriptAcc": {
+            "mean": -0.1135,
+            "lo": -0.1777,
+            "hi": -0.0506,
+            "n_valid": 5000,
+            "p_boot": 0.0004,
+            "p_holm": 0.0012,
+            "m": 8
+          },
+          "ScriptAcc_strict": {
+            "mean": -0.1007,
+            "lo": -0.1464,
+            "hi": -0.0564,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "KataKeep": {
+            "mean": -0.0377,
+            "lo": -0.1346,
+            "hi": 0.0671,
+            "n_valid": 5000,
+            "p_boot": 0.4612,
+            "p_holm": 1.0,
+            "m": 8
+          }
+        }
+      },
+      {
+        "label": "fine-tuning (LFM both - zero-shot p1)",
+        "a": "ev_ft_lfm_both",
+        "b": "zs_lfm_p1",
+        "diff": {
+          "MER": -0.1113334166979284,
+          "ScriptAcc": 0.24887248872488732,
+          "ScriptAcc_strict": 0.19106191061910618,
+          "KataKeep": -0.29087048832271767
+        },
+        "ci": {
+          "MER": {
+            "mean": -0.1112,
+            "lo": -0.2155,
+            "hi": -0.0357,
+            "n_valid": 5000,
+            "p_boot": 0.0004,
+            "p_holm": 0.0016,
+            "m": 8
+          },
+          "ScriptAcc": {
+            "mean": 0.2484,
+            "lo": 0.1973,
+            "hi": 0.2995,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "ScriptAcc_strict": {
+            "mean": 0.1908,
+            "lo": 0.155,
+            "hi": 0.2263,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "KataKeep": {
+            "mean": -0.2901,
+            "lo": -0.3901,
+            "hi": -0.1883,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          }
+        }
+      },
+      {
+        "label": "architecture, same data (Whisper cs+mono - LFM both)",
+        "a": "ev_ft_whisper_csmono_auto",
+        "b": "ev_ft_lfm_both",
+        "diff": {
+          "MER": -0.28644074861406366,
+          "ScriptAcc": 0.2224272242722427,
+          "ScriptAcc_strict": 0.38314883148831486,
+          "KataKeep": 0.16348195329087045
+        },
+        "ci": {
+          "MER": {
+            "mean": -0.2868,
+            "lo": -0.3345,
+            "hi": -0.2374,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "ScriptAcc": {
+            "mean": 0.2226,
+            "lo": 0.1665,
+            "hi": 0.2764,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "ScriptAcc_strict": {
+            "mean": 0.3831,
+            "lo": 0.3257,
+            "hi": 0.4353,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          },
+          "KataKeep": {
+            "mean": 0.1626,
+            "lo": 0.0719,
+            "hi": 0.2555,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 8
+          }
+        }
+      },
+      {
+        "label": "ja+rp decoding (Whisper ja+rp - ja)",
+        "a": "zs_whisper_ja_rp",
+        "b": "zs_whisper_ja",
+        "diff": {
+          "MER": -0.09228460672752287,
+          "ScriptAcc": 0.0043050430504305015,
+          "ScriptAcc_strict": 0.006150061500615034,
+          "KataKeep": -0.01273885350318471
+        },
+        "ci": {
+          "MER": {
+            "mean": -0.0919,
+            "lo": -0.2736,
+            "hi": 0.0056,
+            "n_valid": 5000,
+            "p_boot": 0.1204,
+            "p_holm": 0.2408,
+            "m": 8
+          },
+          "ScriptAcc": {
+            "mean": 0.0039,
+            "lo": -0.0293,
+            "hi": 0.0309,
+            "n_valid": 5000,
+            "p_boot": 0.7568,
+            "p_holm": 0.7568,
+            "m": 8
+          },
+          "ScriptAcc_strict": {
+            "mean": 0.0057,
+            "lo": -0.027,
+            "hi": 0.0327,
+            "n_valid": 5000,
+            "p_boot": 0.6836,
+            "p_holm": 0.6836,
+            "m": 8
+          },
+          "KataKeep": {
+            "mean": -0.0124,
+            "lo": -0.0438,
+            "hi": 0.0141,
+            "n_valid": 5000,
+            "p_boot": 0.584,
+            "p_holm": 1.0,
+            "m": 8
+          }
+        }
+      }
+    ],
+    "mono_ja": [
+      {
+        "label": "forgetting (Whisper cs - zero-shot)",
+        "a": "ev_ft_whisper_cs_auto",
+        "b": "zs_whisper_auto",
+        "diff": {
+          "JA_CER": 0.11176004751534349
+        },
+        "ci": {
+          "JA_CER": {
+            "mean": 0.1115,
+            "lo": 0.088,
+            "hi": 0.1359,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 5
+          }
+        }
+      },
+      {
+        "label": "forgetting (Whisper cs+mono - zero-shot)",
+        "a": "ev_ft_whisper_csmono_auto",
+        "b": "zs_whisper_auto",
+        "diff": {
+          "JA_CER": -0.0006599353263380195
+        },
+        "ci": {
+          "JA_CER": {
+            "mean": -0.0007,
+            "lo": -0.0041,
+            "hi": 0.0026,
+            "n_valid": 5000,
+            "p_boot": 0.6996,
+            "p_holm": 1.0,
+            "m": 5
+          }
+        }
+      },
+      {
+        "label": "forgetting (LFM both - zero-shot p1)",
+        "a": "ev_ft_lfm_both",
+        "b": "zs_lfm_p1",
+        "diff": {
+          "JA_CER": -0.0015838447832112468
+        },
+        "ci": {
+          "JA_CER": {
+            "mean": -0.0016,
+            "lo": -0.007,
+            "hi": 0.0035,
+            "n_valid": 5000,
+            "p_boot": 0.564,
+            "p_holm": 1.0,
+            "m": 5
+          }
+        }
+      },
+      {
+        "label": "forgetting (LFM LM only - zero-shot p1)",
+        "a": "ev_ft_lfm_lm",
+        "b": "zs_lfm_p1",
+        "diff": {
+          "JA_CER": 0.003365670164323903
+        },
+        "ci": {
+          "JA_CER": {
+            "mean": 0.0033,
+            "lo": -0.0031,
+            "hi": 0.0102,
+            "n_valid": 5000,
+            "p_boot": 0.3316,
+            "p_holm": 0.9948,
+            "m": 5
+          }
+        }
+      },
+      {
+        "label": "forgetting (LFM encoder only - zero-shot p1)",
+        "a": "ev_ft_lfm_encoder",
+        "b": "zs_lfm_p1",
+        "diff": {
+          "JA_CER": 0.030686992674717875
+        },
+        "ci": {
+          "JA_CER": {
+            "mean": 0.0308,
+            "lo": 0.017,
+            "hi": 0.0472,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 5
+          }
+        }
+      }
+    ],
+    "mono_en": [
+      {
+        "label": "forgetting (Whisper cs - zero-shot)",
+        "a": "ev_ft_whisper_cs_auto",
+        "b": "zs_whisper_auto",
+        "diff": {
+          "EN_WER": 0.0021630491534273127
+        },
+        "ci": {
+          "EN_WER": {
+            "mean": 0.0021,
+            "lo": -0.001,
+            "hi": 0.0056,
+            "n_valid": 5000,
+            "p_boot": 0.2012,
+            "p_holm": 0.4024,
+            "m": 5
+          }
+        }
+      },
+      {
+        "label": "forgetting (Whisper cs+mono - zero-shot)",
+        "a": "ev_ft_whisper_csmono_auto",
+        "b": "zs_whisper_auto",
+        "diff": {
+          "EN_WER": -0.0016409338405310656
+        },
+        "ci": {
+          "EN_WER": {
+            "mean": -0.0017,
+            "lo": -0.0065,
+            "hi": 0.0025,
+            "n_valid": 5000,
+            "p_boot": 0.4952,
+            "p_holm": 0.4952,
+            "m": 5
+          }
+        }
+      },
+      {
+        "label": "forgetting (LFM both - zero-shot p1)",
+        "a": "ev_ft_lfm_both",
+        "b": "zs_lfm_p1",
+        "diff": {
+          "EN_WER": -0.27649735212948456
+        },
+        "ci": {
+          "EN_WER": {
+            "mean": -0.2769,
+            "lo": -0.3684,
+            "hi": -0.204,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 5
+          }
+        }
+      },
+      {
+        "label": "forgetting (LFM LM only - zero-shot p1)",
+        "a": "ev_ft_lfm_lm",
+        "b": "zs_lfm_p1",
+        "diff": {
+          "EN_WER": -0.145371820690684
+        },
+        "ci": {
+          "EN_WER": {
+            "mean": -0.1462,
+            "lo": -0.2418,
+            "hi": -0.0567,
+            "n_valid": 5000,
+            "p_boot": 0.0024,
+            "p_holm": 0.0096,
+            "m": 5
+          }
+        }
+      },
+      {
+        "label": "forgetting (LFM encoder only - zero-shot p1)",
+        "a": "ev_ft_lfm_encoder",
+        "b": "zs_lfm_p1",
+        "diff": {
+          "EN_WER": 0.1083016334750504
+        },
+        "ci": {
+          "EN_WER": {
+            "mean": 0.1092,
+            "lo": -0.0272,
+            "hi": 0.2724,
+            "n_valid": 5000,
+            "p_boot": 0.1248,
+            "p_holm": 0.3744,
+            "m": 5
+          }
+        }
+      }
+    ]
+  },
+  "ranking": {
+    "synth_art:csf_read": {
+      "systems": [
+        "ev_ft_lfm_both",
+        "ev_ft_lfm_encoder",
+        "ev_ft_lfm_lm",
+        "ev_ft_whisper_cs_auto",
+        "ev_ft_whisper_csmono_auto",
+        "zs_lfm_p1",
+        "zs_lfm_p2",
+        "zs_lfm_p3",
+        "zs_whisper_auto",
+        "zs_whisper_ja",
+        "zs_whisper_ja_rp"
+      ],
+      "MER": {
+        "tau": 0.587180674734059,
+        "lo": 0.4770842982214229,
+        "hi": 0.6605782590758164
+      },
+      "ScriptAcc": {
+        "tau": 0.8334762598987157,
+        "lo": 0.6482593132545567,
+        "hi": 0.8705196492275474
+      },
+      "MER_capped": {
+        "tau": 0.4403855060505442,
+        "lo": 0.40368671387966554,
+        "hi": 0.5504818825631803
+      },
+      "regret": {
+        "all systems": {
+          "picks": [
+            "ev_ft_whisper_csmono_auto"
+          ],
+          "real_best": "ev_ft_whisper_cs_auto",
+          "regret": [
+            0.04510024592555539
+          ]
+        },
+        "fine-tuned only": {
+          "picks": [
+            "ev_ft_whisper_csmono_auto"
+          ],
+          "real_best": "ev_ft_whisper_cs_auto",
+          "regret": [
+            0.04510024592555539
+          ]
+        }
+      }
+    },
+    "synth_diss:csf_read": {
+      "systems": [
+        "ev_ft_lfm_both",
+        "ev_ft_lfm_encoder",
+        "ev_ft_lfm_lm",
+        "ev_ft_whisper_cs_auto",
+        "ev_ft_whisper_csmono_auto",
+        "zs_lfm_p1",
+        "zs_lfm_p2",
+        "zs_lfm_p3",
+        "zs_whisper_auto",
+        "zs_whisper_ja",
+        "zs_whisper_ja_rp"
+      ],
+      "MER": {
+        "tau": 0.6608480480431909,
+        "lo": 0.523570314404736,
+        "hi": 0.8118990304530631
+      },
+      "ScriptAcc": {
+        "tau": 0.4576620428378843,
+        "lo": 0.261785157202368,
+        "hi": 0.6230853024407228
+      },
+      "MER_capped": {
+        "tau": 0.6357639532057509,
+        "lo": 0.523570314404736,
+        "hi": 0.8227533512074423
+      },
+      "regret": {
+        "all systems": {
+          "picks": [
+            "ev_ft_whisper_cs_auto"
+          ],
+          "real_best": "ev_ft_whisper_cs_auto",
+          "regret": [
+            0.0
+          ]
+        },
+        "fine-tuned only": {
+          "picks": [
+            "ev_ft_whisper_cs_auto"
+          ],
+          "real_best": "ev_ft_whisper_cs_auto",
+          "regret": [
+            0.0
+          ]
+        }
+      }
+    },
+    "twins_kokoro:csf_read": {
+      "systems": [
+        "ev_ft_lfm_both",
+        "ev_ft_lfm_encoder",
+        "ev_ft_lfm_lm",
+        "ev_ft_whisper_cs_auto",
+        "ev_ft_whisper_csmono_auto",
+        "zs_lfm_p1",
+        "zs_lfm_p2",
+        "zs_lfm_p3",
+        "zs_whisper_auto",
+        "zs_whisper_ja",
+        "zs_whisper_ja_rp"
+      ],
+      "MER": {
+        "tau": 0.8545454545454545,
+        "lo": 0.6727272727272727,
+        "hi": 0.9272727272727272
+      },
+      "ScriptAcc": {
+        "tau": 0.697277051246695,
+        "lo": 0.4909090909090909,
+        "hi": 0.8181818181818182
+      },
+      "MER_capped": {
+        "tau": 0.8909090909090909,
+        "lo": 0.7454545454545455,
+        "hi": 0.9272727272727272
+      },
+      "regret": {
+        "all systems": {
+          "picks": [
+            "ev_ft_whisper_csmono_auto"
+          ],
+          "real_best": "ev_ft_whisper_cs_auto",
+          "regret": [
+            0.04510024592555539
+          ]
+        },
+        "fine-tuned only": {
+          "picks": [
+            "ev_ft_whisper_csmono_auto"
+          ],
+          "real_best": "ev_ft_whisper_cs_auto",
+          "regret": [
+            0.04510024592555539
+          ]
+        }
+      }
+    },
+    "twins_edge:csf_read": {
+      "systems": [
+        "ev_ft_lfm_both",
+        "ev_ft_lfm_encoder",
+        "ev_ft_lfm_lm",
+        "ev_ft_whisper_cs_auto",
+        "ev_ft_whisper_csmono_auto",
+        "zs_lfm_p1",
+        "zs_lfm_p2",
+        "zs_lfm_p3",
+        "zs_whisper_auto",
+        "zs_whisper_ja",
+        "zs_whisper_ja_rp"
+      ],
+      "MER": {
+        "tau": 0.6,
+        "lo": 0.45454545454545453,
+        "hi": 0.7090909090909091
+      },
+      "ScriptAcc": {
+        "tau": 0.6727272727272727,
+        "lo": 0.5272727272727272,
+        "hi": 0.8545454545454545
+      },
+      "MER_capped": {
+        "tau": 0.5272727272727272,
+        "lo": 0.41818181818181815,
+        "hi": 0.6363636363636364
+      },
+      "regret": {
+        "all systems": {
+          "picks": [
+            "ev_ft_whisper_cs_auto"
+          ],
+          "real_best": "ev_ft_whisper_cs_auto",
+          "regret": [
+            0.0
+          ]
+        },
+        "fine-tuned only": {
+          "picks": [
+            "ev_ft_whisper_cs_auto"
+          ],
+          "real_best": "ev_ft_whisper_cs_auto",
+          "regret": [
+            0.0
+          ]
+        }
+      }
+    },
+    "csyodas:csf_read": {
+      "systems": [
+        "ev_ft_lfm_both",
+        "ev_ft_lfm_encoder",
+        "ev_ft_lfm_lm",
+        "ev_ft_whisper_cs_auto",
+        "ev_ft_whisper_csmono_auto",
+        "zs_lfm_p1",
+        "zs_lfm_p2",
+        "zs_lfm_p3",
+        "zs_whisper_auto",
+        "zs_whisper_ja",
+        "zs_whisper_ja_rp"
+      ],
+      "MER": {
+        "tau": 0.16363636363636364,
+        "lo": -0.05454545454545454,
+        "hi": 0.6727272727272727
+      },
+      "ScriptAcc": {
+        "tau": 0.8181818181818182,
+        "lo": 0.6727272727272727,
+        "hi": 0.9272727272727272
+      },
+      "MER_capped": {
+        "tau": 0.7454545454545455,
+        "lo": 0.5636363636363636,
+        "hi": 0.8181818181818182
+      },
+      "regret": {
+        "all systems": {
+          "picks": [
+            "ev_ft_lfm_encoder"
+          ],
+          "real_best": "ev_ft_whisper_cs_auto",
+          "regret": [
+            0.5429119253053228
+          ]
+        },
+        "fine-tuned only": {
+          "picks": [
+            "ev_ft_lfm_encoder"
+          ],
+          "real_best": "ev_ft_whisper_cs_auto",
+          "regret": [
+            0.5429119253053228
+          ]
+        }
+      }
+    }
+  },
+  "exploratory_comparisons": {
+    "csf_read": [
+      {
+        "label": "ja+rp decoding on Whisper cs (ja+rp - auto)",
+        "a": "ev_ft_whisper_cs_ja_rp",
+        "b": "ev_ft_whisper_cs_auto",
+        "diff": {
+          "MER": 0.005668792463840611,
+          "ScriptAcc": -0.001435014350143482,
+          "ScriptAcc_strict": -0.005330053300533044,
+          "KataKeep": 0.0
+        },
+        "ci": {
+          "MER": {
+            "mean": 0.0057,
+            "lo": 0.0021,
+            "hi": 0.0094,
+            "n_valid": 5000,
+            "p_boot": 0.0016,
+            "p_holm": 0.0048,
+            "m": 6
+          },
+          "ScriptAcc": {
+            "mean": -0.0014,
+            "lo": -0.0063,
+            "hi": 0.0032,
+            "n_valid": 5000,
+            "p_boot": 0.5604,
+            "p_holm": 1.0,
+            "m": 6
+          },
+          "ScriptAcc_strict": {
+            "mean": -0.0053,
+            "lo": -0.0102,
+            "hi": -0.0012,
+            "n_valid": 5000,
+            "p_boot": 0.0096,
+            "p_holm": 0.0288,
+            "m": 6
+          },
+          "KataKeep": {
+            "mean": 0.0002,
+            "lo": -0.0159,
+            "hi": 0.0151,
+            "n_valid": 5000,
+            "p_boot": 1.0,
+            "p_holm": 1.0,
+            "m": 6
+          }
+        }
+      },
+      {
+        "label": "ja+rp decoding on Whisper cs+mono (ja+rp - auto)",
+        "a": "ev_ft_whisper_csmono_ja_rp",
+        "b": "ev_ft_whisper_csmono_auto",
+        "diff": {
+          "MER": 0.009086740861156267,
+          "ScriptAcc": -0.0045100451004510544,
+          "ScriptAcc_strict": -0.010250102501024982,
+          "KataKeep": -0.02547770700636942
+        },
+        "ci": {
+          "MER": {
+            "mean": 0.0091,
+            "lo": -0.0018,
+            "hi": 0.0201,
+            "n_valid": 5000,
+            "p_boot": 0.0988,
+            "p_holm": 0.0988,
+            "m": 6
+          },
+          "ScriptAcc": {
+            "mean": -0.0044,
+            "lo": -0.0209,
+            "hi": 0.0108,
+            "n_valid": 5000,
+            "p_boot": 0.6072,
+            "p_holm": 1.0,
+            "m": 6
+          },
+          "ScriptAcc_strict": {
+            "mean": -0.0102,
+            "lo": -0.0254,
+            "hi": 0.0035,
+            "n_valid": 5000,
+            "p_boot": 0.1688,
+            "p_holm": 0.1688,
+            "m": 6
+          },
+          "KataKeep": {
+            "mean": -0.0252,
+            "lo": -0.0581,
+            "hi": 0.0042,
+            "n_valid": 5000,
+            "p_boot": 0.116,
+            "p_holm": 0.232,
+            "m": 6
+          }
+        }
+      },
+      {
+        "label": "replay effect under ja+rp decoding (cs+mono - cs, both ja+rp)",
+        "a": "ev_ft_whisper_csmono_ja_rp",
+        "b": "ev_ft_whisper_cs_ja_rp",
+        "diff": {
+          "MER": 0.04851819432287105,
+          "ScriptAcc": -0.1326363263632636,
+          "ScriptAcc_strict": -0.09040590405904059,
+          "KataKeep": 0.5116772823779193
+        },
+        "ci": {
+          "MER": {
+            "mean": 0.0486,
+            "lo": 0.0184,
+            "hi": 0.0813,
+            "n_valid": 5000,
+            "p_boot": 0.0016,
+            "p_holm": 0.0048,
+            "m": 6
+          },
+          "ScriptAcc": {
+            "mean": -0.133,
+            "lo": -0.1762,
+            "hi": -0.0958,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 6
+          },
+          "ScriptAcc_strict": {
+            "mean": -0.0907,
+            "lo": -0.1274,
+            "hi": -0.0588,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 6
+          },
+          "KataKeep": {
+            "mean": 0.5105,
+            "lo": 0.4137,
+            "hi": 0.6055,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 6
+          }
+        }
+      },
+      {
+        "label": "training length (Whisper cs, epoch 3 - epoch 1)",
+        "a": "ev_ft_whisper_cs_ep3_auto",
+        "b": "ev_ft_whisper_cs_ep1_auto",
+        "diff": {
+          "MER": 0.008503188695760916,
+          "ScriptAcc": 0.0020500205002050853,
+          "ScriptAcc_strict": -0.006560065600656029,
+          "KataKeep": -0.03397027600849256
+        },
+        "ci": {
+          "MER": {
+            "mean": 0.0085,
+            "lo": 0.0047,
+            "hi": 0.0128,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 6
+          },
+          "ScriptAcc": {
+            "mean": 0.0021,
+            "lo": -0.0029,
+            "hi": 0.0074,
+            "n_valid": 5000,
+            "p_boot": 0.4512,
+            "p_holm": 1.0,
+            "m": 6
+          },
+          "ScriptAcc_strict": {
+            "mean": -0.0066,
+            "lo": -0.012,
+            "hi": -0.0016,
+            "n_valid": 5000,
+            "p_boot": 0.0128,
+            "p_holm": 0.0288,
+            "m": 6
+          },
+          "KataKeep": {
+            "mean": -0.0339,
+            "lo": -0.0663,
+            "hi": -0.0096,
+            "n_valid": 5000,
+            "p_boot": 0.0032,
+            "p_holm": 0.0128,
+            "m": 6
+          }
+        }
+      },
+      {
+        "label": "training length (Whisper cs+mono, epoch 3 - epoch 1)",
+        "a": "ev_ft_whisper_csmono_ep3_auto",
+        "b": "ev_ft_whisper_csmono_ep1_auto",
+        "diff": {
+          "MER": 0.030136301112917346,
+          "ScriptAcc": -0.03485034850348512,
+          "ScriptAcc_strict": -0.03382533825338252,
+          "KataKeep": 0.023354564755838636
+        },
+        "ci": {
+          "MER": {
+            "mean": 0.0298,
+            "lo": 0.0128,
+            "hi": 0.0472,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 6
+          },
+          "ScriptAcc": {
+            "mean": -0.0347,
+            "lo": -0.0556,
+            "hi": -0.0152,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 6
+          },
+          "ScriptAcc_strict": {
+            "mean": -0.0337,
+            "lo": -0.0528,
+            "hi": -0.0163,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 6
+          },
+          "KataKeep": {
+            "mean": 0.0237,
+            "lo": 0.0,
+            "hi": 0.0522,
+            "n_valid": 5000,
+            "p_boot": 0.0668,
+            "p_holm": 0.2004,
+            "m": 6
+          }
+        }
+      },
+      {
+        "label": "replay effect at epoch 3 (cs+mono - cs)",
+        "a": "ev_ft_whisper_csmono_ep3_auto",
+        "b": "ev_ft_whisper_cs_ep3_auto",
+        "diff": {
+          "MER": 0.069192613896878,
+          "ScriptAcc": -0.16687166871668724,
+          "ScriptAcc_strict": -0.11336613366133663,
+          "KataKeep": 0.5753715498938429
+        },
+        "ci": {
+          "MER": {
+            "mean": 0.0694,
+            "lo": 0.0365,
+            "hi": 0.1056,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 6
+          },
+          "ScriptAcc": {
+            "mean": -0.1676,
+            "lo": -0.2155,
+            "hi": -0.1246,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 6
+          },
+          "ScriptAcc_strict": {
+            "mean": -0.1139,
+            "lo": -0.1533,
+            "hi": -0.0782,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 6
+          },
+          "KataKeep": {
+            "mean": 0.5757,
+            "lo": 0.4703,
+            "hi": 0.6776,
+            "n_valid": 5000,
+            "p_boot": 0.0,
+            "p_holm": 0.0,
+            "m": 6
+          }
+        }
+      }
+    ],
+    "mono_ja": [
+      {
+        "label": "training length (Whisper cs, epoch 3 - epoch 1)",
+        "a": "ev_ft_whisper_cs_ep3_auto",
+        "b": "ev_ft_whisper_cs_ep1_auto",
+        "diff": {
+          "JA_CER": 0.007358278888668912
+        },
+        "ci": {
+          "JA_CER": {
+            "mean": 0.0074,
+            "lo": 0.0024,
+            "hi": 0.0136,
+            "n_valid": 5000,
+            "p_boot": 0.0008,
+            "p_holm": 0.0016,
+            "m": 2
+          }
+        }
+      },
+      {
+        "label": "training length (Whisper cs+mono, epoch 3 - epoch 1)",
+        "a": "ev_ft_whisper_csmono_ep3_auto",
+        "b": "ev_ft_whisper_csmono_ep1_auto",
+        "diff": {
+          "JA_CER": -0.0002639741305352078
+        },
+        "ci": {
+          "JA_CER": {
+            "mean": -0.0003,
+            "lo": -0.0027,
+            "hi": 0.0024,
+            "n_valid": 5000,
+            "p_boot": 0.8476,
+            "p_holm": 0.8476,
+            "m": 2
+          }
+        }
+      }
+    ],
+    "mono_en": [
+      {
+        "label": "training length (Whisper cs, epoch 3 - epoch 1)",
+        "a": "ev_ft_whisper_cs_ep3_auto",
+        "b": "ev_ft_whisper_cs_ep1_auto",
+        "diff": {
+          "EN_WER": 0.00022376370552695812
+        },
+        "ci": {
+          "EN_WER": {
+            "mean": 0.0002,
+            "lo": -0.0007,
+            "hi": 0.0013,
+            "n_valid": 5000,
+            "p_boot": 0.7704,
+            "p_holm": 1.0,
+            "m": 2
+          }
+        }
+      },
+      {
+        "label": "training length (Whisper cs+mono, epoch 3 - epoch 1)",
+        "a": "ev_ft_whisper_csmono_ep3_auto",
+        "b": "ev_ft_whisper_csmono_ep1_auto",
+        "diff": {
+          "EN_WER": -0.0004475274110539301
+        },
+        "ci": {
+          "EN_WER": {
+            "mean": -0.0004,
+            "lo": -0.0026,
+            "hi": 0.0018,
+            "n_valid": 5000,
+            "p_boot": 0.7252,
+            "p_holm": 1.0,
+            "m": 2
+          }
+        }
+      }
+    ]
+  },
+  "reproducibility": {
+    "csf_read": [
+      {
+        "label": "repeat - ladder (Whisper cs, dev-selected epoch 1)",
+        "a": "ev_ft_whisper_cs_ep1_auto",
+        "b": "ev_ft_whisper_cs_auto",
+        "diff": {
+          "MER": -0.0008753282480930547,
+          "ScriptAcc": -0.0008200082000819897,
+          "ScriptAcc_strict": 0.0,
+          "KataKeep": 0.010615711252653925
+        },
+        "ci": {
+          "MER": {
+            "mean": -0.0009,
+            "lo": -0.0031,
+            "hi": 0.0008,
+            "n_valid": 5000,
+            "p_boot": 0.4136,
+            "p_holm": 0.4984,
+            "m": 2
+          },
+          "ScriptAcc": {
+            "mean": -0.0008,
+            "lo": -0.0027,
+            "hi": 0.0008,
+            "n_valid": 5000,
+            "p_boot": 0.4328,
+            "p_holm": 0.4328,
+            "m": 2
+          },
+          "ScriptAcc_strict": {
+            "mean": -0.0,
+            "lo": -0.0021,
+            "hi": 0.0022,
+            "n_valid": 5000,
+            "p_boot": 1.0,
+            "p_holm": 1.0,
+            "m": 2
+          },
+          "KataKeep": {
+            "mean": 0.0104,
+            "lo": -0.0022,
+            "hi": 0.0265,
+            "n_valid": 5000,
+            "p_boot": 0.1784,
+            "p_holm": 0.3568,
+            "m": 2
+          }
+        }
+      },
+      {
+        "label": "repeat - ladder (Whisper csmono, dev-selected epoch 1)",
+        "a": "ev_ft_whisper_csmono_ep1_auto",
+        "b": "ev_ft_whisper_csmono_auto",
+        "diff": {
+          "MER": 0.001583927306073124,
+          "ScriptAcc": -0.0012300123001229846,
+          "ScriptAcc_strict": -0.0006150061500614923,
+          "KataKeep": -0.00849256900212314
+        },
+        "ci": {
+          "MER": {
+            "mean": 0.0016,
+            "lo": -0.0009,
+            "hi": 0.0046,
+            "n_valid": 5000,
+            "p_boot": 0.2492,
+            "p_holm": 0.4984,
+            "m": 2
+          },
+          "ScriptAcc": {
+            "mean": -0.0012,
+            "lo": -0.0031,
+            "hi": 0.0002,
+            "n_valid": 5000,
+            "p_boot": 0.1492,
+            "p_holm": 0.2984,
+            "m": 2
+          },
+          "ScriptAcc_strict": {
+            "mean": -0.0006,
+            "lo": -0.0026,
+            "hi": 0.001,
+            "n_valid": 5000,
+            "p_boot": 0.586,
+            "p_holm": 1.0,
+            "m": 2
+          },
+          "KataKeep": {
+            "mean": -0.0084,
+            "lo": -0.0225,
+            "hi": 0.0,
+            "n_valid": 5000,
+            "p_boot": 0.2608,
+            "p_holm": 0.3568,
+            "m": 2
+          }
+        }
+      }
+    ],
+    "mono_ja": [
+      {
+        "label": "repeat - ladder (Whisper cs, dev-selected epoch 1)",
+        "a": "ev_ft_whisper_cs_ep1_auto",
+        "b": "ev_ft_whisper_cs_auto",
+        "diff": {
+          "JA_CER": 9.899029895069078e-05
+        },
+        "ci": {
+          "JA_CER": {
+            "mean": 0.0001,
+            "lo": -0.001,
+            "hi": 0.0014,
+            "n_valid": 5000,
+            "p_boot": 0.946,
+            "p_holm": 1.0,
+            "m": 2
+          }
+        }
+      },
+      {
+        "label": "repeat - ladder (Whisper csmono, dev-selected epoch 1)",
+        "a": "ev_ft_whisper_csmono_ep1_auto",
+        "b": "ev_ft_whisper_csmono_auto",
+        "diff": {
+          "JA_CER": 0.00016498383158450314
+        },
+        "ci": {
+          "JA_CER": {
+            "mean": 0.0002,
+            "lo": -0.0002,
+            "hi": 0.0007,
+            "n_valid": 5000,
+            "p_boot": 0.5608,
+            "p_holm": 1.0,
+            "m": 2
+          }
+        }
+      }
+    ],
+    "mono_en": [
+      {
+        "label": "repeat - ladder (Whisper cs, dev-selected epoch 1)",
+        "a": "ev_ft_whisper_cs_ep1_auto",
+        "b": "ev_ft_whisper_cs_auto",
+        "diff": {
+          "EN_WER": 0.000149175803684648
+        },
+        "ci": {
+          "EN_WER": {
+            "mean": 0.0002,
+            "lo": 0.0,
+            "hi": 0.0004,
+            "n_valid": 5000,
+            "p_boot": 0.2636,
+            "p_holm": 0.5272,
+            "m": 2
+          }
+        }
+      },
+      {
+        "label": "repeat - ladder (Whisper csmono, dev-selected epoch 1)",
+        "a": "ev_ft_whisper_csmono_ep1_auto",
+        "b": "ev_ft_whisper_csmono_auto",
+        "diff": {
+          "EN_WER": 7.4587901842324e-05
+        },
+        "ci": {
+          "EN_WER": {
+            "mean": 0.0001,
+            "lo": -0.0004,
+            "hi": 0.0005,
+            "n_valid": 5000,
+            "p_boot": 0.83,
+            "p_holm": 0.83,
+            "m": 2
+          }
+        }
+      }
+    ]
+  },
+  "capped": {
+    "csf_read": {
+      "ev_ft_whisper_cs_ja": {
+        "MER": 0.16772956525363678,
+        "MER_capped": 0.16664582551790255,
+        "lo": 0.1441430628900624,
+        "hi": 0.19199415987346394,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_cs_ep1_auto": {
+        "MER": 0.16822975282397565,
+        "MER_capped": 0.16714601308824142,
+        "lo": 0.14545934530095037,
+        "hi": 0.19158475599241248,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_cs_auto": {
+        "MER": 0.1691050810720687,
+        "MER_capped": 0.16802134133633445,
+        "lo": 0.14559289790741914,
+        "hi": 0.19302514193025141,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_cs_ja_rp": {
+        "MER": 0.1747738735359093,
+        "MER_capped": 0.17377349839523154,
+        "lo": 0.1512967713041,
+        "hi": 0.19980764606876653,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_cs_ep2_auto": {
+        "MER": 0.1753991079988329,
+        "MER_capped": 0.17402359218040098,
+        "lo": 0.15047268907563024,
+        "hi": 0.19742347044447206,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_cs_ep3_auto": {
+        "MER": 0.17673294151973656,
+        "MER_capped": 0.17544079029636114,
+        "lo": 0.15309034572733202,
+        "hi": 0.20053790553034123,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_csmono_ja": {
+        "MER": 0.21520570213830187,
+        "MER_capped": 0.20407652869826184,
+        "lo": 0.17400558733537316,
+        "hi": 0.235054967848994,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_csmono_auto": {
+        "MER": 0.2142053269976241,
+        "MER_capped": 0.20440998707848776,
+        "lo": 0.1752684160344899,
+        "hi": 0.2381722604124545,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_csmono_ep1_auto": {
+        "MER": 0.21578925430369722,
+        "MER_capped": 0.2059105497895044,
+        "lo": 0.1741606358998695,
+        "hi": 0.23842181017695369,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_csmono_ja_rp": {
+        "MER": 0.22329206785878036,
+        "MER_capped": 0.21341336334458755,
+        "lo": 0.1845404208194906,
+        "hi": 0.24389818688981868,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_csmono_ep3_auto": {
+        "MER": 0.24592555541661457,
+        "MER_capped": 0.23462965278646158,
+        "lo": 0.202361782071927,
+        "hi": 0.26718223279793774,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_csmono_ep2_auto": {
+        "MER": 0.2488849985411196,
+        "MER_capped": 0.23750573131591013,
+        "lo": 0.20536370315944158,
+        "hi": 0.2690923317683881,
+        "Runaway": 0.0
+      },
+      "zs_whisper_auto": {
+        "MER": 0.4137801675628361,
+        "MER_capped": 0.38977116418657,
+        "lo": 0.3494575622208041,
+        "hi": 0.4312749003984064,
+        "Runaway": 0.00510204081632653
+      },
+      "zs_whisper_ja": {
+        "MER": 0.544329123421283,
+        "MER_capped": 0.4185319494810554,
+        "lo": 0.3768996960486322,
+        "hi": 0.46086282614311547,
+        "Runaway": 0.02040816326530612
+      },
+      "zs_whisper_ja_rp": {
+        "MER": 0.45204451669376017,
+        "MER_capped": 0.42078279354758036,
+        "lo": 0.3786960287022145,
+        "hi": 0.46084067969847964,
+        "Runaway": 0.0
+      },
+      "ev_ft_lfm_lm": {
+        "MER": 0.503647201033721,
+        "MER_capped": 0.47767912967362763,
+        "lo": 0.4386405491377867,
+        "hi": 0.5184224609937838,
+        "Runaway": 0.006802721088435374
+      },
+      "ev_ft_lfm_both": {
+        "MER": 0.5006460756116877,
+        "MER_capped": 0.4928514859739069,
+        "lo": 0.45573080967402735,
+        "hi": 0.532033426183844,
+        "Runaway": 0.0017006802721088435
+      },
+      "zs_lfm_p1": {
+        "MER": 0.6119794923096161,
+        "MER_capped": 0.5359509816181068,
+        "lo": 0.4946866984243313,
+        "hi": 0.5775346648009159,
+        "Runaway": 0.02040816326530612
+      },
+      "zs_lfm_p3": {
+        "MER": 0.6767537826685007,
+        "MER_capped": 0.5662123296236089,
+        "lo": 0.5218256290228204,
+        "hi": 0.6101590432745654,
+        "Runaway": 0.04591836734693878
+      },
+      "ev_ft_lfm_encoder": {
+        "MER": 0.7120170063773915,
+        "MER_capped": 0.579800758617815,
+        "lo": 0.5362593162190938,
+        "hi": 0.6229915993801485,
+        "Runaway": 0.03231292517006803
+      },
+      "zs_lfm_p2": {
+        "MER": 1.0937851694385394,
+        "MER_capped": 0.5890959109666125,
+        "lo": 0.5451072220852847,
+        "hi": 0.6333717505442438,
+        "Runaway": 0.12244897959183673
+      }
+    },
+    "csyodas": {
+      "ev_ft_whisper_cs_auto": {
+        "MER": 0.5513248719661545,
+        "MER_capped": 0.37207748830995324,
+        "lo": 0.335946248600224,
+        "hi": 0.406917675183027,
+        "Runaway": 0.03168044077134986
+      },
+      "ev_ft_whisper_csmono_auto": {
+        "MER": 0.542492392191791,
+        "MER_capped": 0.3737103837304238,
+        "lo": 0.33914468782595736,
+        "hi": 0.4097205540875971,
+        "Runaway": 0.045454545454545456
+      },
+      "zs_whisper_ja": {
+        "MER": 0.6842574036962814,
+        "MER_capped": 0.42395902916945,
+        "lo": 0.38499886698391117,
+        "hi": 0.46692342546443133,
+        "Runaway": 0.05371900826446281
+      },
+      "zs_whisper_auto": {
+        "MER": 0.6261411712313516,
+        "MER_capped": 0.4299710532175462,
+        "lo": 0.38975453575240127,
+        "hi": 0.4732893839508979,
+        "Runaway": 0.04132231404958678
+      },
+      "zs_whisper_ja_rp": {
+        "MER": 0.5252727677577377,
+        "MER_capped": 0.43063905588955687,
+        "lo": 0.3920997920997921,
+        "hi": 0.47136065202626215,
+        "Runaway": 0.045454545454545456
+      },
+      "ev_ft_lfm_encoder": {
+        "MER": 0.48808728568247606,
+        "MER_capped": 0.44325688413864767,
+        "lo": 0.40290450121654503,
+        "hi": 0.48298253470667263,
+        "Runaway": 0.027548209366391185
+      },
+      "zs_lfm_p1": {
+        "MER": 0.554442217768871,
+        "MER_capped": 0.4566911600979737,
+        "lo": 0.4176206050695012,
+        "hi": 0.49521640091116176,
+        "Runaway": 0.04132231404958678
+      },
+      "ev_ft_lfm_lm": {
+        "MER": 0.5178505158465079,
+        "MER_capped": 0.4649298597194389,
+        "lo": 0.4290491118077325,
+        "hi": 0.5039879608728367,
+        "Runaway": 0.024793388429752067
+      },
+      "ev_ft_lfm_both": {
+        "MER": 0.5263118830253098,
+        "MER_capped": 0.4805908112521339,
+        "lo": 0.44544297161686514,
+        "hi": 0.5170524691358025,
+        "Runaway": 0.01928374655647383
+      },
+      "zs_lfm_p3": {
+        "MER": 2.27833444667112,
+        "MER_capped": 0.5764863059452238,
+        "lo": 0.5290215588723052,
+        "hi": 0.6274330203801236,
+        "Runaway": 0.2727272727272727
+      },
+      "zs_lfm_p2": {
+        "MER": 5.842128701848141,
+        "MER_capped": 0.7123135159207303,
+        "lo": 0.658039395327531,
+        "hi": 0.7653107861060329,
+        "Runaway": 0.5
+      }
+    },
+    "twins_kokoro": {
+      "ev_ft_whisper_csmono_auto": {
+        "MER": 0.08707431953649285,
+        "MER_capped": 0.08594889750323038,
+        "lo": 0.07035940455629575,
+        "hi": 0.1032624466276997,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_cs_auto": {
+        "MER": 0.13709307657038056,
+        "MER_capped": 0.13709307657038056,
+        "lo": 0.11550312170599206,
+        "hi": 0.162135564030016,
+        "Runaway": 0.0
+      },
+      "zs_whisper_auto": {
+        "MER": 0.3161185444541703,
+        "MER_capped": 0.2951106664999375,
+        "lo": 0.2601626016260163,
+        "hi": 0.3319036205374038,
+        "Runaway": 0.00510204081632653
+      },
+      "zs_whisper_ja": {
+        "MER": 0.41127922971114167,
+        "MER_capped": 0.3006127297736651,
+        "lo": 0.2683076923076923,
+        "hi": 0.3357784241811054,
+        "Runaway": 0.02040816326530612
+      },
+      "zs_whisper_ja_rp": {
+        "MER": 0.3199949981242966,
+        "MER_capped": 0.30724021508065524,
+        "lo": 0.27364991855657184,
+        "hi": 0.34186377148765673,
+        "Runaway": 0.00510204081632653
+      },
+      "ev_ft_lfm_both": {
+        "MER": 0.45316993872702266,
+        "MER_capped": 0.44141553082405904,
+        "lo": 0.40483371536574575,
+        "hi": 0.4765653385006661,
+        "Runaway": 0.00510204081632653
+      },
+      "ev_ft_lfm_lm": {
+        "MER": 0.4657996748780793,
+        "MER_capped": 0.4467508649076737,
+        "lo": 0.4070339695114632,
+        "hi": 0.48915816326530615,
+        "Runaway": 0.006802721088435374
+      },
+      "zs_lfm_p1": {
+        "MER": 0.5599599849943729,
+        "MER_capped": 0.4848068025509566,
+        "lo": 0.44029939408340263,
+        "hi": 0.5265799974256661,
+        "Runaway": 0.02040816326530612
+      },
+      "ev_ft_lfm_encoder": {
+        "MER": 0.7272727272727273,
+        "MER_capped": 0.5643783085323663,
+        "lo": 0.5195210178370961,
+        "hi": 0.6113508404224716,
+        "Runaway": 0.0391156462585034
+      },
+      "zs_lfm_p3": {
+        "MER": 1.1290483931474302,
+        "MER_capped": 0.6911341753157434,
+        "lo": 0.6450294506551268,
+        "hi": 0.7354871277132762,
+        "Runaway": 0.12755102040816327
+      },
+      "zs_lfm_p2": {
+        "MER": 3.4079029636113543,
+        "MER_capped": 0.9467300237589096,
+        "lo": 0.9289547661640685,
+        "hi": 0.9641210913168058,
+        "Runaway": 0.6071428571428571
+      }
+    },
+    "twins_edge": {
+      "ev_ft_whisper_cs_auto": {
+        "MER": 0.16043516318619483,
+        "MER_capped": 0.1601850694010254,
+        "lo": 0.1370334385879686,
+        "hi": 0.18621215975578734,
+        "Runaway": 0.0
+      },
+      "ev_ft_whisper_csmono_auto": {
+        "MER": 0.28427326914259515,
+        "MER_capped": 0.2681839022966946,
+        "lo": 0.23243949742811368,
+        "hi": 0.3051815052076524,
+        "Runaway": 0.0
+      },
+      "ev_ft_lfm_lm": {
+        "MER": 0.543120336792964,
+        "MER_capped": 0.49939560668584054,
+        "lo": 0.4609181141439206,
+        "hi": 0.5384831348012674,
+        "Runaway": 0.006802721088435374
+      },
+      "ev_ft_lfm_encoder": {
+        "MER": 0.5788837480721938,
+        "MER_capped": 0.5232378808719936,
+        "lo": 0.48186822081916786,
+        "hi": 0.5627604166666667,
+        "Runaway": 0.00510204081632653
+      },
+      "ev_ft_lfm_both": {
+        "MER": 0.5507898795381602,
+        "MER_capped": 0.5238631153349173,
+        "lo": 0.4835360908353609,
+        "hi": 0.5612403100775194,
+        "Runaway": 0.00510204081632653
+      },
+      "zs_whisper_auto": {
+        "MER": 0.7111416781292985,
+        "MER_capped": 0.6191071651869451,
+        "lo": 0.5785113593573491,
+        "hi": 0.6605382360778044,
+        "Runaway": 0.025510204081632654
+      },
+      "zs_whisper_ja_rp": {
+        "MER": 0.7371514317869201,
+        "MER_capped": 0.6419907465299487,
+        "lo": 0.6033197017079625,
+        "hi": 0.6817655385407283,
+        "Runaway": 0.04081632653061224
+      },
+      "zs_whisper_ja": {
+        "MER": 0.8631986995123171,
+        "MER_capped": 0.6464924346629987,
+        "lo": 0.6040842373962987,
+        "hi": 0.6918851435705369,
+        "Runaway": 0.05612244897959184
+      },
+      "zs_lfm_p1": {
+        "MER": 0.7619107165186945,
+        "MER_capped": 0.6556208578216831,
+        "lo": 0.6159429204084144,
+        "hi": 0.6949685534591195,
+        "Runaway": 0.015306122448979591
+      },
+      "zs_lfm_p3": {
+        "MER": 1.1295485807177692,
+        "MER_capped": 0.7270226334875578,
+        "lo": 0.6840098400984009,
+        "hi": 0.7676635758129816,
+        "Runaway": 0.11734693877551021
+      },
+      "zs_lfm_p2": {
+        "MER": 3.7092659747405277,
+        "MER_capped": 0.9147180192572214,
+        "lo": 0.8868278938718009,
+        "hi": 0.9408777184529236,
+        "Runaway": 0.6122448979591837
+      }
+    }
+  },
+  "script_gap": {
+    "csf_read": {
+      "ev_ft_lfm_both": {
+        "MER": 0.5006460756116877,
+        "MER_lenient": 0.4437080571881122,
+        "gap": 0.05693801842357554,
+        "lo": 0.042119735033120886,
+        "hi": 0.0748485602854535
+      },
+      "ev_ft_lfm_encoder": {
+        "MER": 0.7120170063773915,
+        "MER_lenient": 0.6839648201408862,
+        "gap": 0.028052186236505294,
+        "lo": 0.019385975585026527,
+        "hi": 0.037429556733114655
+      },
+      "ev_ft_lfm_lm": {
+        "MER": 0.503647201033721,
+        "MER_lenient": 0.4561710641490559,
+        "gap": 0.047476136884665066,
+        "lo": 0.03418803418803418,
+        "hi": 0.06421482778750731
+      },
+      "ev_ft_whisper_cs_auto": {
+        "MER": 0.1691050810720687,
+        "MER_lenient": 0.12900671084990203,
+        "gap": 0.04009837022216667,
+        "lo": 0.025950151767773932,
+        "hi": 0.05767835550181377
+      },
+      "ev_ft_whisper_cs_ep1_auto": {
+        "MER": 0.16822975282397565,
+        "MER_lenient": 0.12867325246967612,
+        "gap": 0.03955650035429953,
+        "lo": 0.024700268655519456,
+        "hi": 0.05932273555224375
+      },
+      "ev_ft_whisper_cs_ep2_auto": {
+        "MER": 0.1753991079988329,
+        "MER_lenient": 0.13538410237172274,
+        "gap": 0.04001500562711016,
+        "lo": 0.025464083938660204,
+        "hi": 0.05840873369865342
+      },
+      "ev_ft_whisper_cs_ep3_auto": {
+        "MER": 0.17673294151973656,
+        "MER_lenient": 0.13696802967779584,
+        "gap": 0.039764911841940725,
+        "lo": 0.024903722721437732,
+        "hi": 0.05790143214740037
+      },
+      "ev_ft_whisper_cs_ja": {
+        "MER": 0.16772956525363678,
+        "MER_lenient": 0.12763119503147013,
+        "gap": 0.04009837022216664,
+        "lo": 0.026263121349507812,
+        "hi": 0.05803156917363046
+      },
+      "ev_ft_whisper_cs_ja_rp": {
+        "MER": 0.1747738735359093,
+        "MER_lenient": 0.13446709182610145,
+        "gap": 0.040306781709807865,
+        "lo": 0.026017484418789483,
+        "hi": 0.059173624491543564
+      },
+      "ev_ft_whisper_csmono_auto": {
+        "MER": 0.2142053269976241,
+        "MER_lenient": 0.16539535659205534,
+        "gap": 0.04880997040556875,
+        "lo": 0.03298487368337688,
+        "hi": 0.06729507218708983
+      },
+      "ev_ft_whisper_csmono_ep1_auto": {
+        "MER": 0.21578925430369722,
+        "MER_lenient": 0.1666875078154308,
+        "gap": 0.04910174648826643,
+        "lo": 0.03350471293916024,
+        "hi": 0.06775067750677505
+      },
+      "ev_ft_whisper_csmono_ep2_auto": {
+        "MER": 0.2488849985411196,
+        "MER_lenient": 0.18869576091034138,
+        "gap": 0.060189237630778214,
+        "lo": 0.044900966497637945,
+        "hi": 0.08030184070487659
+      },
+      "ev_ft_whisper_csmono_ep3_auto": {
+        "MER": 0.24592555541661457,
+        "MER_lenient": 0.18807052644741779,
+        "gap": 0.05785502896919678,
+        "lo": 0.04147094917692859,
+        "hi": 0.07722805685604622
+      },
+      "ev_ft_whisper_csmono_ja": {
+        "MER": 0.21520570213830187,
+        "MER_lenient": 0.16639573173273312,
+        "gap": 0.04880997040556875,
+        "lo": 0.033222459808347204,
+        "hi": 0.06873929213154487
+      },
+      "ev_ft_whisper_csmono_ja_rp": {
+        "MER": 0.22329206785878036,
+        "MER_lenient": 0.17706639989996248,
+        "gap": 0.046225667958817884,
+        "lo": 0.03219283345466312,
+        "hi": 0.0659818253654682
+      },
+      "zs_lfm_p1": {
+        "MER": 0.6119794923096161,
+        "MER_lenient": 0.5174440415155683,
+        "gap": 0.09453545079404779,
+        "lo": 0.07720495324740961,
+        "hi": 0.11421674501334012
+      },
+      "zs_lfm_p2": {
+        "MER": 1.0937851694385394,
+        "MER_lenient": 0.9956233587595348,
+        "gap": 0.09816181067900465,
+        "lo": 0.07504078303425787,
+        "hi": 0.12683284457477995
+      },
+      "zs_lfm_p3": {
+        "MER": 0.6767537826685007,
+        "MER_lenient": 0.5948480680255096,
+        "gap": 0.08190571464299112,
+        "lo": 0.06538022089628026,
+        "hi": 0.09926108374384235
+      },
+      "zs_whisper_auto": {
+        "MER": 0.4137801675628361,
+        "MER_lenient": 0.30598974615480806,
+        "gap": 0.10779042140802803,
+        "lo": 0.08546903740036788,
+        "hi": 0.13206349206349205
+      },
+      "zs_whisper_ja": {
+        "MER": 0.544329123421283,
+        "MER_lenient": 0.4386644991871952,
+        "gap": 0.10566462423408784,
+        "lo": 0.08656064101007649,
+        "hi": 0.12827450498093718
+      },
+      "zs_whisper_ja_rp": {
+        "MER": 0.45204451669376017,
+        "MER_lenient": 0.3600100037514068,
+        "gap": 0.09203451294235337,
+        "lo": 0.07572353640808771,
+        "hi": 0.1096225685946155
+      }
+    },
+    "csyodas": {
+      "ev_ft_lfm_both": {
+        "MER": 0.5263118830253098,
+        "MER_lenient": 0.4863801677428932,
+        "gap": 0.039931715282416624,
+        "lo": 0.027859033291544766,
+        "hi": 0.0531800766283525
+      },
+      "ev_ft_lfm_encoder": {
+        "MER": 0.48808728568247606,
+        "MER_lenient": 0.43813553031989905,
+        "gap": 0.04995175536257701,
+        "lo": 0.035537368080982124,
+        "hi": 0.06507791017415215
+      },
+      "ev_ft_lfm_lm": {
+        "MER": 0.5178505158465079,
+        "MER_lenient": 0.4745787872040377,
+        "gap": 0.0432717286424702,
+        "lo": 0.031245305693255232,
+        "hi": 0.05577485380116959
+      },
+      "ev_ft_whisper_cs_auto": {
+        "MER": 0.5513248719661545,
+        "MER_lenient": 0.4847472723224226,
+        "gap": 0.06657759964373194,
+        "lo": 0.05071813285457816,
+        "hi": 0.08333333333333331
+      },
+      "ev_ft_whisper_csmono_auto": {
+        "MER": 0.542492392191791,
+        "MER_lenient": 0.4800712536183478,
+        "gap": 0.062421138573443224,
+        "lo": 0.04683790200733873,
+        "hi": 0.07798531289910604
+      },
+      "zs_lfm_p1": {
+        "MER": 0.554442217768871,
+        "MER_lenient": 0.47272322422623025,
+        "gap": 0.08171899354264078,
+        "lo": 0.06387524033326214,
+        "hi": 0.10181904086935978
+      },
+      "zs_lfm_p2": {
+        "MER": 5.842128701848141,
+        "MER_lenient": 5.751725673569361,
+        "gap": 0.09040302827878044,
+        "lo": 0.06441930270145413,
+        "hi": 0.12077951506911422
+      },
+      "zs_lfm_p3": {
+        "MER": 2.27833444667112,
+        "MER_lenient": 2.1765753729681587,
+        "gap": 0.10175907370296144,
+        "lo": 0.07004775983625233,
+        "hi": 0.14384324203963494
+      },
+      "zs_whisper_auto": {
+        "MER": 0.6261411712313516,
+        "MER_lenient": 0.5435315074593632,
+        "gap": 0.08260966377198842,
+        "lo": 0.06496471564964718,
+        "hi": 0.10285988944965152
+      },
+      "zs_whisper_ja": {
+        "MER": 0.6842574036962814,
+        "MER_lenient": 0.6007570696949455,
+        "gap": 0.08350033400133594,
+        "lo": 0.06624669782564518,
+        "hi": 0.10356975105683419
+      },
+      "zs_whisper_ja_rp": {
+        "MER": 0.5252727677577377,
+        "MER_lenient": 0.44244043642841235,
+        "gap": 0.08283233132932533,
+        "lo": 0.06597222222222221,
+        "hi": 0.1018215787015413
+      }
+    },
+    "twins_kokoro": {
+      "ev_ft_lfm_both": {
+        "MER": 0.45316993872702266,
+        "MER_lenient": 0.4119044641740653,
+        "gap": 0.04126547455295737,
+        "lo": 0.028763102725366863,
+        "hi": 0.05593811102609875
+      },
+      "ev_ft_lfm_encoder": {
+        "MER": 0.7272727272727273,
+        "MER_lenient": 0.6889250135467467,
+        "gap": 0.03834771372598056,
+        "lo": 0.023657759254719246,
+        "hi": 0.05678287149363637
+      },
+      "ev_ft_lfm_lm": {
+        "MER": 0.4657996748780793,
+        "MER_lenient": 0.44112375474136134,
+        "gap": 0.024675920136717933,
+        "lo": 0.015501052290756046,
+        "hi": 0.03721927832450167
+      },
+      "ev_ft_whisper_cs_auto": {
+        "MER": 0.13709307657038056,
+        "MER_lenient": 0.09716143553832687,
+        "gap": 0.03993164103205368,
+        "lo": 0.02511306831706736,
+        "hi": 0.05854568054692355
+      },
+      "ev_ft_whisper_csmono_auto": {
+        "MER": 0.08707431953649285,
+        "MER_lenient": 0.06906756700429327,
+        "gap": 0.018006752532199577,
+        "lo": 0.008463289942862051,
+        "hi": 0.030964934304125863
+      },
+      "zs_lfm_p1": {
+        "MER": 0.5599599849943729,
+        "MER_lenient": 0.48318119294735523,
+        "gap": 0.07677879204701771,
+        "lo": 0.05591013530763339,
+        "hi": 0.09878019612532879
+      },
+      "zs_lfm_p2": {
+        "MER": 3.4079029636113543,
+        "MER_lenient": 3.3555083156183567,
+        "gap": 0.052394647992997534,
+        "lo": 0.028324468085106247,
+        "hi": 0.08008844122343728
+      },
+      "zs_lfm_p3": {
+        "MER": 1.1290483931474302,
+        "MER_lenient": 1.0807802926097287,
+        "gap": 0.048268100537701475,
+        "lo": 0.03481299339976718,
+        "hi": 0.06305323147811315
+      },
+      "zs_whisper_auto": {
+        "MER": 0.3161185444541703,
+        "MER_lenient": 0.2798549456046017,
+        "gap": 0.03626359884956859,
+        "lo": 0.019550590326266326,
+        "hi": 0.056960440660991485
+      },
+      "zs_whisper_ja": {
+        "MER": 0.41127922971114167,
+        "MER_lenient": 0.37589095910966613,
+        "gap": 0.035388270601475535,
+        "lo": 0.022000511639805542,
+        "hi": 0.050285862785862834
+      },
+      "zs_whisper_ja_rp": {
+        "MER": 0.3199949981242966,
+        "MER_lenient": 0.28773289983743905,
+        "gap": 0.032262098286857555,
+        "lo": 0.02108667529107372,
+        "hi": 0.04468432283168072
+      }
+    },
+    "twins_edge": {
+      "ev_ft_lfm_both": {
+        "MER": 0.5507898795381602,
+        "MER_lenient": 0.3982743528823309,
+        "gap": 0.1525155266558293,
+        "lo": 0.1296660923783739,
+        "hi": 0.17704595933709205
+      },
+      "ev_ft_lfm_encoder": {
+        "MER": 0.5788837480721938,
+        "MER_lenient": 0.4289108415655871,
+        "gap": 0.14997290650660666,
+        "lo": 0.12724103585657365,
+        "hi": 0.17562902890413806
+      },
+      "ev_ft_lfm_lm": {
+        "MER": 0.543120336792964,
+        "MER_lenient": 0.39952482180817805,
+        "gap": 0.14359551498478595,
+        "lo": 0.12276391223759642,
+        "hi": 0.1680535996244612
+      },
+      "ev_ft_whisper_cs_auto": {
+        "MER": 0.16043516318619483,
+        "MER_lenient": 0.11771080821974907,
+        "gap": 0.04272435496644576,
+        "lo": 0.02803903386762044,
+        "hi": 0.06206243307800016
+      },
+      "ev_ft_whisper_csmono_auto": {
+        "MER": 0.28427326914259515,
+        "MER_lenient": 0.19011295902630154,
+        "gap": 0.09416031011629361,
+        "lo": 0.07231345433592626,
+        "hi": 0.12031262991602232
+      },
+      "zs_lfm_p1": {
+        "MER": 0.7619107165186945,
+        "MER_lenient": 0.511816931349256,
+        "gap": 0.2500937851694385,
+        "lo": 0.2161006289308176,
+        "hi": 0.283865959373787
+      },
+      "zs_lfm_p2": {
+        "MER": 3.7092659747405277,
+        "MER_lenient": 3.371889458546955,
+        "gap": 0.3373765161935727,
+        "lo": 0.2674121794092623,
+        "hi": 0.41810289799565936
+      },
+      "zs_lfm_p3": {
+        "MER": 1.1295485807177692,
+        "MER_lenient": 0.9059647367762911,
+        "gap": 0.22358384394147812,
+        "lo": 0.1860613810741688,
+        "hi": 0.26119497653177726
+      },
+      "zs_whisper_auto": {
+        "MER": 0.7111416781292985,
+        "MER_lenient": 0.46129798674502936,
+        "gap": 0.24984369138426915,
+        "lo": 0.21929276521304508,
+        "hi": 0.28492694180979233
+      },
+      "zs_whisper_ja": {
+        "MER": 0.8631986995123171,
+        "MER_lenient": 0.6077278979617357,
+        "gap": 0.25547080155058144,
+        "lo": 0.22321536417441723,
+        "hi": 0.2910484067136949
+      },
+      "zs_whisper_ja_rp": {
+        "MER": 0.7371514317869201,
+        "MER_lenient": 0.5014380392647243,
+        "gap": 0.2357133925221958,
+        "lo": 0.20772762050497323,
+        "hi": 0.2679103510817463
+      }
+    }
+  }
+}
